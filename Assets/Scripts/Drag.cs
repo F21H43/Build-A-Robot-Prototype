@@ -13,6 +13,10 @@ public class Drag : MonoBehaviour
     {
         screenPoint = Camera.main.WorldToScreenPoint(gameObject.transform.position);
         offset = gameObject.transform.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z));
+        if (transform.parent != null)
+        {
+            transform.SetParent(null);
+        }
     }
 
     void OnMouseDrag()
@@ -27,6 +31,15 @@ public class Drag : MonoBehaviour
         else if (Input.GetKey(KeyCode.Q))
         {
             transform.Rotate(new Vector3(0, 0, 1), rotationAmount);
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log("collided");
+        if (collision.gameObject.CompareTag("BodySegment") == true)
+        {
+            transform.SetParent(collision.transform);
         }
     }
 }
