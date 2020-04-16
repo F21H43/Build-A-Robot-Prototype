@@ -33,13 +33,4 @@ public class Drag : MonoBehaviour
             transform.Rotate(new Vector3(0, 0, 1), rotationAmount);
         }
     }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        Debug.Log("collided");
-        if (collision.gameObject.CompareTag("BodySegment") == true)
-        {
-            transform.SetParent(collision.transform);
-        }
-    }
 }
