@@ -5,7 +5,6 @@ using UnityEngine;
 public class Joint : MonoBehaviour
 {
     SpriteRenderer sprite;
-    [SerializeField]
     private bool connected = false;
 
     private void Start()
