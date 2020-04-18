@@ -5,6 +5,8 @@ using UnityEngine;
 public class PartSpawning : MonoBehaviour
 {
     public static bool torsoSpawned = false;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +31,8 @@ public class PartSpawning : MonoBehaviour
 
     public void SpawnRoboPart(GameObject part)
     {
-        Instantiate(part, Vector3.right * 5, Quaternion.identity);
+        Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        mousePos.z = 0;
+        Instantiate(part, mousePos, Quaternion.identity);
     }
 }
