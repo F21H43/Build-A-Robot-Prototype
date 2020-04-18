@@ -7,7 +7,7 @@ public class Drag : MonoBehaviour
     private Vector3 screenPoint;
     private Vector3 offset;
     public static float rotationAmount = 1f;
-    private bool isHeld;
+    public bool isHeld;
 
     private void Update()
     {
