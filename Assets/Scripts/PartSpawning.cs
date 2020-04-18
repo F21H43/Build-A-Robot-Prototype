@@ -21,8 +21,9 @@ public class PartSpawning : MonoBehaviour
     {
         if (!torsoSpawned)
         {
-            Instantiate(torso, Vector3.right * 5, Quaternion.identity);
+            GameObject newTorso = Instantiate(torso, Vector3.right * 5, Quaternion.identity);
             torsoSpawned = true;
+            Symmetry.torso = newTorso.transform;
         }       
     }
 
