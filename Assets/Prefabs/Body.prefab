@@ -144,6 +144,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isHeld: 0
+  canRotate: 1
+  isRotating: 0
 --- !u!114 &2348364731378308645
 MonoBehaviour:
   m_ObjectHideFlags: 0

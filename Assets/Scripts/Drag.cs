@@ -8,6 +8,10 @@ public class Drag : MonoBehaviour
     private Vector3 offset;
     public static float rotationAmount = 1f;
     public bool isHeld;
+    [SerializeField]
+    private bool canRotate = true;
+    //0 is not rotating -1 is rotating left, 1 rotating right this should never be geater than +1/-1
+    public int isRotating = 0;
 
     private void Start()
     {
@@ -52,12 +56,26 @@ public class Drag : MonoBehaviour
             transform.position = cursorPosition;
             if (Input.GetKey(KeyCode.E))
             {
-                transform.Rotate(new Vector3(0, 0, 1), -rotationAmount);
+                isRotating = -1;
+                RotatePart(isRotating);
             }
             else if (Input.GetKey(KeyCode.Q))
             {
-                transform.Rotate(new Vector3(0, 0, 1), rotationAmount);
+                isRotating = 1;
+                RotatePart(isRotating);
+            } else
+            {
+                isRotating = 0;
+            }
+            if (Input.GetKeyDown(KeyCode.F))
+            {
+                transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
             }
         }
+    }
+
+    public void RotatePart(int direction)
+    {
+        transform.Rotate(new Vector3(0, 0, 1), rotationAmount*direction);
     }
 }
