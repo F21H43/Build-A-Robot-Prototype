@@ -157,4 +157,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powerUsage: 0
-  powerProduction: 0
+  powerProduction: 1500
