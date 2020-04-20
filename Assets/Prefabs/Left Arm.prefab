@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 47196821}
   - component: {fileID: 47196817}
   - component: {fileID: 47196819}
+  - component: {fileID: 5829484453487005830}
   m_Layer: 0
   m_Name: Left Arm
   m_TagString: Untagged
@@ -144,6 +145,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isHeld: 1
+--- !u!114 &5829484453487005830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5230460517503411828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5db627a0ee2ff5349a17236008988f17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUsage: 0
+  powerProduction: 0
 --- !u!1 &5608469071270095139
 GameObject:
   m_ObjectHideFlags: 0
@@ -189,7 +204,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 344f165aeb167404883430efc8bd1feb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  connected: 0
 --- !u!58 &6735396097034149133
 CircleCollider2D:
   m_ObjectHideFlags: 0
