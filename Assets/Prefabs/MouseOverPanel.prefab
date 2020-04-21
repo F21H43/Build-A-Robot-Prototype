@@ -90,6 +90,7 @@ GameObject:
   - component: {fileID: 5549841018062262417}
   - component: {fileID: 5549841018062262415}
   - component: {fileID: 5549841018062262416}
+  - component: {fileID: 182361403230148693}
   m_Layer: 5
   m_Name: MouseOverPanel
   m_TagString: Untagged
@@ -155,3 +156,15 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &182361403230148693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5549841018062262418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de1285bc96eaa59408e936de8a3c2468, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
