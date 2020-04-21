@@ -7,7 +7,9 @@ public class MouseOverStuff : MonoBehaviour
 {
     public GameObject mouseOverPanel;
     public Text mouseOverPanelText;
+    public Text mouseOverDescription;
     public string powerDisplay;
+    public string descriptionDisplay;
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +27,7 @@ public class MouseOverStuff : MonoBehaviour
     {
         mouseOverPanel.SetActive(true);
         mouseOverPanelText.text = powerDisplay;
+        mouseOverDescription.text = descriptionDisplay;
     }
 
     public void DeleteMouseOver()

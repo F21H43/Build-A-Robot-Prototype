@@ -872,7 +872,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
-  powerDisplay: 
+  mouseOverDescription: {fileID: 1161298964}
+  powerDisplay: 'Cost: 500 ziG'
+  descriptionDisplay: 
 --- !u!1 &76608902
 GameObject:
   m_ObjectHideFlags: 0
@@ -1549,7 +1551,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
-  powerDisplay: 
+  mouseOverDescription: {fileID: 1161298964}
+  powerDisplay: 'Cost: 500 ziG'
+  descriptionDisplay: 
 --- !u!1 &137829847
 GameObject:
   m_ObjectHideFlags: 0
@@ -2694,7 +2698,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
-  powerDisplay: 
+  mouseOverDescription: {fileID: 1161298964}
+  powerDisplay: 'Cost: 500 ziG'
+  descriptionDisplay: 
 --- !u!1 &247228953
 GameObject:
   m_ObjectHideFlags: 0
@@ -3056,7 +3062,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
-  powerDisplay: 
+  mouseOverDescription: {fileID: 1161298964}
+  powerDisplay: 'Cost: 500 ziG'
+  descriptionDisplay: 
 --- !u!1 &267355018
 GameObject:
   m_ObjectHideFlags: 0
@@ -6803,7 +6811,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
-  powerDisplay: 
+  mouseOverDescription: {fileID: 1161298964}
+  powerDisplay: 'Cost: 500 ziG'
+  descriptionDisplay: 
 --- !u!1 &539961739
 GameObject:
   m_ObjectHideFlags: 0
@@ -9381,7 +9391,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
-  powerDisplay: 
+  mouseOverDescription: {fileID: 1161298964}
+  powerDisplay: 'Cost: 500 ziG'
+  descriptionDisplay: 
 --- !u!1 &722529597
 GameObject:
   m_ObjectHideFlags: 0
@@ -10147,7 +10159,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
-  powerDisplay: 
+  mouseOverDescription: {fileID: 1161298964}
+  powerDisplay: 'Cost: 500 ziG'
+  descriptionDisplay: 
 --- !u!1 &753091693
 GameObject:
   m_ObjectHideFlags: 0
@@ -11087,7 +11101,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
-  powerDisplay: 
+  mouseOverDescription: {fileID: 1161298964}
+  powerDisplay: 'Cost: 500 ziG'
+  descriptionDisplay: 
 --- !u!1 &809685932
 GameObject:
   m_ObjectHideFlags: 0
@@ -12298,7 +12314,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
-  powerDisplay: 
+  mouseOverDescription: {fileID: 1161298964}
+  powerDisplay: 'ziG Capacity: 1500 ziG'
+  descriptionDisplay: Cheap, but offers no benefits.
 --- !u!1 &891033284
 GameObject:
   m_ObjectHideFlags: 0
@@ -13236,7 +13254,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
-  powerDisplay: 
+  mouseOverDescription: {fileID: 1161298964}
+  powerDisplay: 'Cost: 500 ziG'
+  descriptionDisplay: 
 --- !u!1 &940901011
 GameObject:
   m_ObjectHideFlags: 0
@@ -14130,7 +14150,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
-  powerDisplay: 
+  mouseOverDescription: {fileID: 1161298964}
+  powerDisplay: 'Cost: 500 ziG'
+  descriptionDisplay: 
 --- !u!1 &1004035237
 GameObject:
   m_ObjectHideFlags: 0
@@ -14563,7 +14585,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
-  powerDisplay: 
+  mouseOverDescription: {fileID: 1161298964}
+  powerDisplay: 'Cost: 500 ziG'
+  descriptionDisplay: 
 --- !u!1 &1015471216
 GameObject:
   m_ObjectHideFlags: 0
@@ -15713,7 +15737,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
-  powerDisplay: 
+  mouseOverDescription: {fileID: 1161298964}
+  powerDisplay: 'ziG Capacity: 1500 ziG'
+  descriptionDisplay: 
 --- !u!114 &1060583131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15990,7 +16016,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
-  powerDisplay: 
+  mouseOverDescription: {fileID: 1161298964}
+  powerDisplay: 'ziG Capacity: 1500 ziG'
+  descriptionDisplay: 
 --- !u!114 &1080193208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16492,7 +16520,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
-  powerDisplay: 
+  mouseOverDescription: {fileID: 1161298964}
+  powerDisplay: 'ziG Capacity: 1500 ziG'
+  descriptionDisplay: 
 --- !u!114 &1095915930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18062,8 +18092,25 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: 252.29999
       objectReference: {fileID: 0}
+    - target: {fileID: 4649084521748538810, guid: added44e963041847925376c669f8682,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.20000076
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: added44e963041847925376c669f8682, type: 3}
+--- !u!114 &1161298964 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 161326462843677464, guid: added44e963041847925376c669f8682,
+    type: 3}
+  m_PrefabInstance: {fileID: 1161298963}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1169262658
 GameObject:
   m_ObjectHideFlags: 0
@@ -18850,7 +18897,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
-  powerDisplay: 
+  mouseOverDescription: {fileID: 1161298964}
+  powerDisplay: 'Cost: 500 ziG'
+  descriptionDisplay: 
 --- !u!1 &1220393634
 GameObject:
   m_ObjectHideFlags: 0
@@ -19667,7 +19716,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
-  powerDisplay: 
+  mouseOverDescription: {fileID: 1161298964}
+  powerDisplay: 'Cost: 500 ziG'
+  descriptionDisplay: 
 --- !u!1 &1283270275
 GameObject:
   m_ObjectHideFlags: 0
@@ -22524,7 +22575,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
-  powerDisplay: 
+  mouseOverDescription: {fileID: 1161298964}
+  powerDisplay: 'Cost: 500 ziG'
+  descriptionDisplay: 
 --- !u!1 &1518364351
 GameObject:
   m_ObjectHideFlags: 0
@@ -23164,7 +23217,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
-  powerDisplay: 
+  mouseOverDescription: {fileID: 1161298964}
+  powerDisplay: 'ziG Capacity: 1500 ziG'
+  descriptionDisplay: 
 --- !u!114 &1531394360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23711,7 +23766,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
-  powerDisplay: 
+  mouseOverDescription: {fileID: 1161298964}
+  powerDisplay: 'Cost: 500 ziG'
+  descriptionDisplay: 
 --- !u!1 &1565690764
 GameObject:
   m_ObjectHideFlags: 0
@@ -24030,7 +24087,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
-  powerDisplay: 
+  mouseOverDescription: {fileID: 1161298964}
+  powerDisplay: 'Cost: 500 ziG'
+  descriptionDisplay: 
 --- !u!1 &1577756050
 GameObject:
   m_ObjectHideFlags: 0
@@ -25606,7 +25665,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
-  powerDisplay: 
+  mouseOverDescription: {fileID: 1161298964}
+  powerDisplay: 'Cost: 500 ziG'
+  descriptionDisplay: 
 --- !u!1 &1653192191
 GameObject:
   m_ObjectHideFlags: 0
@@ -26320,7 +26381,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
-  powerDisplay: 
+  mouseOverDescription: {fileID: 1161298964}
+  powerDisplay: 'Cost: 500 ziG'
+  descriptionDisplay: 
 --- !u!1 &1739058745
 GameObject:
   m_ObjectHideFlags: 0
@@ -27003,7 +27066,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
-  powerDisplay: 
+  mouseOverDescription: {fileID: 1161298964}
+  powerDisplay: 'Cost: 500 ziG'
+  descriptionDisplay: 
 --- !u!114 &1792760372 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5549841017340205934, guid: added44e963041847925376c669f8682,
@@ -27207,7 +27272,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
-  powerDisplay: 
+  mouseOverDescription: {fileID: 1161298964}
+  powerDisplay: 'Cost: 500 ziG'
+  descriptionDisplay: 
 --- !u!1 &1793673426
 GameObject:
   m_ObjectHideFlags: 0
@@ -29037,7 +29104,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
-  powerDisplay: 
+  mouseOverDescription: {fileID: 1161298964}
+  powerDisplay: 'Cost: 500 ziG'
+  descriptionDisplay: 
 --- !u!1 &1935611219
 GameObject:
   m_ObjectHideFlags: 0
@@ -30052,7 +30121,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
-  powerDisplay: 
+  mouseOverDescription: {fileID: 1161298964}
+  powerDisplay: 'Cost: 500 ziG'
+  descriptionDisplay: 
 --- !u!1 &1991922175
 GameObject:
   m_ObjectHideFlags: 0
@@ -30789,7 +30860,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
-  powerDisplay: 
+  mouseOverDescription: {fileID: 1161298964}
+  powerDisplay: 'Cost: 500 ziG'
+  descriptionDisplay: 
 --- !u!1 &2056666772
 GameObject:
   m_ObjectHideFlags: 0
@@ -31131,7 +31204,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
-  powerDisplay: 
+  mouseOverDescription: {fileID: 1161298964}
+  powerDisplay: 'ziG Capacity: 1500 ziG'
+  descriptionDisplay: 
 --- !u!114 &2063746695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31449,7 +31524,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
-  powerDisplay: 
+  mouseOverDescription: {fileID: 1161298964}
+  powerDisplay: 'Cost: 500 ziG'
+  descriptionDisplay: 
 --- !u!1 &2103197283
 GameObject:
   m_ObjectHideFlags: 0
