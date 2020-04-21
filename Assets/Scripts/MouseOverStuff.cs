@@ -18,7 +18,7 @@ public class MouseOverStuff : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        mouseOverPanel.transform.position = Input.mousePosition;
+
     }
 
     public void SpawnMouseOver()
