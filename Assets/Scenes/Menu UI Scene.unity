@@ -873,8 +873,8 @@ MonoBehaviour:
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
   mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'Cost: 500 ziG'
-  descriptionDisplay: 
+  powerDisplay: 'Cost: 100 ziG'
+  descriptionDisplay: Cheap, but offers no benefits.
 --- !u!1 &76608902
 GameObject:
   m_ObjectHideFlags: 0
@@ -3063,8 +3063,8 @@ MonoBehaviour:
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
   mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'Cost: 500 ziG'
-  descriptionDisplay: 
+  powerDisplay: 'Cost: 100 ziG'
+  descriptionDisplay: Cheap, but offers no benefits.
 --- !u!1 &267355018
 GameObject:
   m_ObjectHideFlags: 0
@@ -6812,8 +6812,8 @@ MonoBehaviour:
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
   mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'Cost: 500 ziG'
-  descriptionDisplay: 
+  powerDisplay: 'Cost: 125 ziG'
+  descriptionDisplay: Cheap, but offers no benefits.
 --- !u!1 &539961739
 GameObject:
   m_ObjectHideFlags: 0
@@ -10160,8 +10160,8 @@ MonoBehaviour:
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
   mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'Cost: 500 ziG'
-  descriptionDisplay: 
+  powerDisplay: 'Cost: 200 ziG'
+  descriptionDisplay: Cheap, but offers no benefits.
 --- !u!1 &753091693
 GameObject:
   m_ObjectHideFlags: 0
@@ -16018,7 +16018,7 @@ MonoBehaviour:
   mouseOverPanelText: {fileID: 1792760372}
   mouseOverDescription: {fileID: 1161298964}
   powerDisplay: 'ziG Capacity: 1500 ziG'
-  descriptionDisplay: 
+  descriptionDisplay: Cheap, but offers no benefits.
 --- !u!114 &1080193208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18092,10 +18092,75 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: 252.29999
       objectReference: {fileID: 0}
+    - target: {fileID: 5549841018062262416, guid: added44e963041847925376c669f8682,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549841017340205935, guid: added44e963041847925376c669f8682,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549841017340205935, guid: added44e963041847925376c669f8682,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549841017340205935, guid: added44e963041847925376c669f8682,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549841017340205935, guid: added44e963041847925376c669f8682,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549841017340205935, guid: added44e963041847925376c669f8682,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549841017340205935, guid: added44e963041847925376c669f8682,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 89.9
+      objectReference: {fileID: 0}
     - target: {fileID: 4649084521748538810, guid: added44e963041847925376c669f8682,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.20000076
+      value: 34.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4649084521748538810, guid: added44e963041847925376c669f8682,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4649084521748538810, guid: added44e963041847925376c669f8682,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4649084521748538810, guid: added44e963041847925376c669f8682,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4649084521748538810, guid: added44e963041847925376c669f8682,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4649084521748538810, guid: added44e963041847925376c669f8682,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4649084521748538810, guid: added44e963041847925376c669f8682,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 57.7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: added44e963041847925376c669f8682, type: 3}
@@ -22576,8 +22641,8 @@ MonoBehaviour:
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
   mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'Cost: 500 ziG'
-  descriptionDisplay: 
+  powerDisplay: 'Cost: 125 ziG'
+  descriptionDisplay: Cheap, but offers no benefits.
 --- !u!1 &1518364351
 GameObject:
   m_ObjectHideFlags: 0
@@ -23767,8 +23832,8 @@ MonoBehaviour:
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
   mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'Cost: 500 ziG'
-  descriptionDisplay: 
+  powerDisplay: 'Cost: 200 ziG'
+  descriptionDisplay: Cheap, but offers no benefits.
 --- !u!1 &1565690764
 GameObject:
   m_ObjectHideFlags: 0
@@ -27067,8 +27132,8 @@ MonoBehaviour:
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
   mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'Cost: 500 ziG'
-  descriptionDisplay: 
+  powerDisplay: 'Cost: 200 ziG'
+  descriptionDisplay: Cheap, but offers no benefits.
 --- !u!114 &1792760372 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5549841017340205934, guid: added44e963041847925376c669f8682,
@@ -30122,8 +30187,8 @@ MonoBehaviour:
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
   mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'Cost: 500 ziG'
-  descriptionDisplay: 
+  powerDisplay: 'Cost: 200 ziG'
+  descriptionDisplay: Cheap, but offers no benefits.
 --- !u!1 &1991922175
 GameObject:
   m_ObjectHideFlags: 0
