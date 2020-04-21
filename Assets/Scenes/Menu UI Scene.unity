@@ -30176,7 +30176,7 @@ MonoBehaviour:
           m_MethodName: SpawnRoboPart
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 5230460517503411828, guid: f530a0df235bf2d4dbba8f8106a33c5d,
+            m_ObjectArgument: {fileID: 5230460517503411828, guid: b21670f44ce8c9f45a1a108e97a53db0,
               type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
@@ -31537,7 +31537,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 2100250068}
   m_OnClick:
     m_PersistentCalls:
