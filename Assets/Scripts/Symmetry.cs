@@ -22,9 +22,12 @@ public class Symmetry : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        if(torso != null && !torso.gameObject.GetComponent<Drag>().isHeld && !leftLeg.GetComponent<Drag>().isHeld && !rightLeg.GetComponent<Drag>().isHeld)
+        if(torso != null)
         {
-            transform.position = torso.position;
+            if(!torso.gameObject.GetComponent<Drag>().isHeld && !leftLeg.GetComponent<Drag>().isHeld && !rightLeg.GetComponent<Drag>().isHeld)
+            {
+                transform.position = torso.position;
+            }
         }
 
         if (leftLeg.GetComponent<Drag>().isHeld)
