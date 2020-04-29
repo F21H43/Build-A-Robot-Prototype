@@ -6,8 +6,10 @@ public class Drag : MonoBehaviour
 {
     private Vector3 screenPoint;
     private Vector3 offset;
-    public static float rotationAmount = 1f;
+    //how fast you rotate
+    public static float rotationAmount = 15f;
     public bool isHeld;
+    public bool isSelected;
     [SerializeField]
     private bool canRotate = true;
     //0 is not rotating -1 is rotating left, 1 rotating right this should never be geater than +1/-1
@@ -47,6 +49,9 @@ public class Drag : MonoBehaviour
         isHeld = true;       
     }
 
+    /// <summary>
+    /// the parts follows the cursor if held, contains the rotation and flip hot key input.
+    /// </summary>
     private void FollowMouseCursor()
     {
         if (isHeld)
@@ -74,6 +79,11 @@ public class Drag : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// rotates a part
+    /// directions: 0 is not rotating; -1 is rotating left; 1 rotating right; this should never be geater than +1/-1
+    /// </summary>
+    /// <param name="direction"></param>
     public void RotatePart(int direction)
     {
         transform.Rotate(new Vector3(0, 0, 1), rotationAmount*direction);

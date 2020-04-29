@@ -481,7 +481,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Tall
 --- !u!222 &61521439
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2498,7 +2498,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Rusty
 --- !u!222 &238459870
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2771,7 +2771,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Unavailable
 --- !u!222 &247228956
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5648,7 +5648,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: X-Ray
 --- !u!222 &440335039
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6445,7 +6445,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Strong Arm
 --- !u!222 &519163303
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7466,7 +7466,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Speedy
 --- !u!222 &585638504
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8282,7 +8282,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Rusty
 --- !u!222 &639378326
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8558,8 +8558,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 215597857}
   m_HandleRect: {fileID: 215597856}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.5710086
+  m_Value: 0.99999976
+  m_Size: 0.57100856
   m_NumberOfSteps: 10
   m_OnValueChanged:
     m_PersistentCalls:
@@ -8852,7 +8852,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Rusty
 --- !u!222 &682651742
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11249,7 +11249,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Deco
 --- !u!222 &810859098
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12548,7 +12548,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &899866835
 GameObject:
@@ -12867,7 +12867,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &920904081
 GameObject:
@@ -13336,6 +13336,75 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 940901011}
   m_CullTransparentMesh: 0
+--- !u!1001 &946769264
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 277960545515118238, guid: 0ddfac8948c53d743b655b60ef8996ff,
+        type: 3}
+      propertyPath: m_Name
+      value: RustedLegs
+      objectReference: {fileID: 0}
+    - target: {fileID: 277960545515118236, guid: 0ddfac8948c53d743b655b60ef8996ff,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.480682
+      objectReference: {fileID: 0}
+    - target: {fileID: 277960545515118236, guid: 0ddfac8948c53d743b655b60ef8996ff,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.1574609
+      objectReference: {fileID: 0}
+    - target: {fileID: 277960545515118236, guid: 0ddfac8948c53d743b655b60ef8996ff,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.6047778
+      objectReference: {fileID: 0}
+    - target: {fileID: 277960545515118236, guid: 0ddfac8948c53d743b655b60ef8996ff,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 277960545515118236, guid: 0ddfac8948c53d743b655b60ef8996ff,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 277960545515118236, guid: 0ddfac8948c53d743b655b60ef8996ff,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 277960545515118236, guid: 0ddfac8948c53d743b655b60ef8996ff,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 277960545515118236, guid: 0ddfac8948c53d743b655b60ef8996ff,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 277960545515118236, guid: 0ddfac8948c53d743b655b60ef8996ff,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 277960545515118236, guid: 0ddfac8948c53d743b655b60ef8996ff,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 277960545515118236, guid: 0ddfac8948c53d743b655b60ef8996ff,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0ddfac8948c53d743b655b60ef8996ff, type: 3}
 --- !u!1 &962792304
 GameObject:
   m_ObjectHideFlags: 0
@@ -14164,7 +14233,7 @@ MonoBehaviour:
   mouseOverPanelText: {fileID: 1792760372}
   mouseOverDescription: {fileID: 1161298964}
   powerDisplay: 'Cost: 500 ziG'
-  descriptionDisplay: 
+  descriptionDisplay: If it's too far away to grab, just use this to reach further
 --- !u!1 &1004035237
 GameObject:
   m_ObjectHideFlags: 0
@@ -16546,7 +16615,7 @@ MonoBehaviour:
   mouseOverPanelText: {fileID: 1792760372}
   mouseOverDescription: {fileID: 1161298964}
   powerDisplay: 'ziG Capacity: 1500 ziG'
-  descriptionDisplay: 
+  descriptionDisplay: A modern Luxury torso
 --- !u!114 &1095915930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18999,8 +19068,8 @@ MonoBehaviour:
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
   mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'Cost: 500 ziG'
-  descriptionDisplay: 
+  powerDisplay: 'Cost: 350 ziG'
+  descriptionDisplay: If you're not sure what's there, just look through it
 --- !u!1 &1220393634
 GameObject:
   m_ObjectHideFlags: 0
@@ -19150,7 +19219,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Fishhook
 --- !u!222 &1223029343
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21298,7 +21367,7 @@ RectTransform:
   - {fileID: 1636372632}
   - {fileID: 359085900}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -22476,7 +22545,7 @@ GameObject:
   - component: {fileID: 1514226097}
   - component: {fileID: 1514226096}
   m_Layer: 5
-  m_Name: Button
+  m_Name: RustyLegButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23438,7 +23507,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Unavailable
 --- !u!222 &1539041070
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -24012,7 +24081,7 @@ GameObject:
   - component: {fileID: 1570823475}
   - component: {fileID: 1570823474}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: SpeedyLegButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24201,8 +24270,8 @@ MonoBehaviour:
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
   mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'Cost: 500 ziG'
-  descriptionDisplay: 
+  powerDisplay: 'Cost: 300 ziG'
+  descriptionDisplay: Get you places faster
 --- !u!1 &1577756050
 GameObject:
   m_ObjectHideFlags: 0
@@ -26495,8 +26564,8 @@ MonoBehaviour:
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
   mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'Cost: 500 ziG'
-  descriptionDisplay: 
+  powerDisplay: 'Cost: 400 ziG'
+  descriptionDisplay: Comming soon to a scrapyard near you
 --- !u!1 &1739058745
 GameObject:
   m_ObjectHideFlags: 0
@@ -26694,7 +26763,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Unavailable
 --- !u!222 &1743843350
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -26955,7 +27024,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Rusty
 --- !u!222 &1787264774
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -26979,7 +27048,7 @@ GameObject:
   - component: {fileID: 1788418325}
   - component: {fileID: 1788418324}
   m_Layer: 5
-  m_Name: Button
+  m_Name: RustyArmButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27273,7 +27342,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 1792936077}
   m_OnClick:
     m_PersistentCalls:
@@ -27334,7 +27403,19 @@ MonoBehaviour:
   - eventID: 13
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 1358149170}
+          m_MethodName: SpawnRoboPart
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 8714007183173504494, guid: 2e575c42da4a30247bf3a09227bedb0f,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   - eventID: 0
@@ -27386,8 +27467,8 @@ MonoBehaviour:
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
   mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'Cost: 500 ziG'
-  descriptionDisplay: 
+  powerDisplay: 'Cost: 400 ziG'
+  descriptionDisplay: The drill can collect resources faster.
 --- !u!1 &1793673426
 GameObject:
   m_ObjectHideFlags: 0
@@ -27742,7 +27823,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Rusty
 --- !u!222 &1808561978
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -29219,7 +29300,7 @@ MonoBehaviour:
   mouseOverPanelText: {fileID: 1792760372}
   mouseOverDescription: {fileID: 1161298964}
   powerDisplay: 'Cost: 500 ziG'
-  descriptionDisplay: 
+  descriptionDisplay: Comming soon to a scrapyard near you
 --- !u!1 &1935611219
 GameObject:
   m_ObjectHideFlags: 0
@@ -29369,7 +29450,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Drill
 --- !u!222 &1958125997
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -30034,7 +30115,7 @@ GameObject:
   - component: {fileID: 1986968381}
   - component: {fileID: 1986968380}
   m_Layer: 5
-  m_Name: Button
+  m_Name: RustyArmButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30986,8 +31067,8 @@ MonoBehaviour:
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
   mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'Cost: 500 ziG'
-  descriptionDisplay: 
+  powerDisplay: 'Cost: 400 ziG'
+  descriptionDisplay: Lift what you need quick and easy, even if it's heavy.
 --- !u!1 &2056666772
 GameObject:
   m_ObjectHideFlags: 0
@@ -31331,7 +31412,7 @@ MonoBehaviour:
   mouseOverPanelText: {fileID: 1792760372}
   mouseOverDescription: {fileID: 1161298964}
   powerDisplay: 'ziG Capacity: 1500 ziG'
-  descriptionDisplay: 
+  descriptionDisplay: Comming soon to a scrapyard near you
 --- !u!114 &2063746695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31473,7 +31554,7 @@ GameObject:
   - component: {fileID: 2100250071}
   - component: {fileID: 2100250070}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: TallLegButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31662,8 +31743,8 @@ MonoBehaviour:
   mouseOverPanel: {fileID: 359085899}
   mouseOverPanelText: {fileID: 1792760372}
   mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'Cost: 500 ziG'
-  descriptionDisplay: 
+  powerDisplay: 'Cost: 200 ziG'
+  descriptionDisplay: Allows you to reach new heights
 --- !u!1 &2103197283
 GameObject:
   m_ObjectHideFlags: 0

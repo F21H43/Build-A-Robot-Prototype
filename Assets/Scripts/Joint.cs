@@ -12,6 +12,10 @@ public class Joint : MonoBehaviour
         sprite = GetComponentInParent<SpriteRenderer>();
     }
 
+
+    /// <summary>
+    /// if we are connected make the 
+    /// </summary>
     private void Update()
     {
         if (connected)
@@ -28,7 +32,6 @@ public class Joint : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("BodySegment"))
         {
-            Debug.Log("Connected body segment");
             connected = true;
         }
     }
