@@ -18,12 +18,16 @@ public class Joint : MonoBehaviour
     /// </summary>
     private void Update()
     {
-        if (connected)
+        if(Drag.selectedObj != gameObject.transform.parent.gameObject)
         {
-            sprite.color = Color.white;
-        } else
-        {
-            sprite.color = Color.red;
+            if (connected)
+            {
+                sprite.color = Color.white;
+            }
+            else
+            {
+                sprite.color = Color.red;
+            }
         }
     }
 
