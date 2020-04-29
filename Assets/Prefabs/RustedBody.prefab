@@ -160,3 +160,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   powerUsage: 0
   powerProduction: 1500
+  weight: 0
+  strength: 0
+  integrity: 0
+  mobility: 0
+  vision: 0
+  range: 0

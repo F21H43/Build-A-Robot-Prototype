@@ -7,6 +7,13 @@ public class RobotStats : MonoBehaviour
 {
     public int powerProduced;
     public int powerUsed;
+    public int weight;
+    public int strength;
+    public int integrity;
+    public int mobility;
+    public int vision;
+    public int range;
+
     private Text powerText;
 
     void Start()
