@@ -25,9 +25,8 @@ public class Symmetry : MonoBehaviour
     public void ToggleSymmetry(bool setSym)
     {
         symEnabled = setSym;
-        rightLeg.transform.position = leftLeg.transform.position;
+        rightLeg.transform.localPosition = leftLeg.transform.localPosition;
         rightLeg.SetActive(symEnabled);
-        transform.position = leftLeg.transform.position;
     }
 
     // Update is called once per frame
@@ -42,8 +41,8 @@ public class Symmetry : MonoBehaviour
         }
         
 
-        if (symEnabled)
-        {
+       // if (symEnabled)
+      //  {
             if (leftLeg == null || rightLeg == null)
             {
                 Destroy(gameObject);
@@ -76,5 +75,5 @@ public class Symmetry : MonoBehaviour
             }
             leftLeg.transform.localScale = rightLeg.transform.localScale;
         }
-    }
+  //  }
 }

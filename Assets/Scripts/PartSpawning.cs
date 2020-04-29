@@ -34,6 +34,13 @@ public class PartSpawning : MonoBehaviour
     {
         Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         mousePos.z = 0;
-        Drag.selectedObj = Instantiate(part, mousePos, Quaternion.identity);
+        GameObject newPart = Instantiate(part, mousePos, Quaternion.identity);
+        if(newPart.GetComponent<Drag>() != null)
+        {
+            Drag.selectedObj = newPart;
+        } else if(newPart.GetComponentInChildren<Drag>() != null)
+        {
+            Drag.selectedObj = newPart.GetComponentInChildren<Drag>().gameObject;
+        }
     }
 }
