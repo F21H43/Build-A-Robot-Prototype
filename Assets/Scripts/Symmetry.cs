@@ -25,13 +25,15 @@ public class Symmetry : MonoBehaviour
     public void ToggleSymmetry(bool setSym)
     {
         symEnabled = setSym;
+        rightLeg.transform.position = leftLeg.transform.position;
         rightLeg.SetActive(symEnabled);
+        transform.position = leftLeg.transform.position;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.S))
+        if (leftLeg.GetComponent<Drag>().isHeld || Drag.selectedObj == leftLeg)
         {
             if (Input.GetKeyDown(KeyCode.S))
             {

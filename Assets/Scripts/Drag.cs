@@ -7,9 +7,9 @@ public class Drag : MonoBehaviour
     private Vector3 screenPoint;
     private Vector3 offset;
     //how fast you rotate
-    public static float rotationAmount = 15f;
+    public static float rotationAmount = 5f;
     public bool isHeld;
-    public bool isSelected;
+    public static GameObject selectedObj;
     [SerializeField]
     private bool canRotate = true;
     //0 is not rotating -1 is rotating left, 1 rotating right this should never be geater than +1/-1
@@ -46,7 +46,8 @@ public class Drag : MonoBehaviour
 
     void OnMouseDrag()
     {
-        isHeld = true;       
+        isHeld = true;
+        selectedObj = this.gameObject;
     }
 
     /// <summary>
