@@ -8558,8 +8558,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 215597857}
   m_HandleRect: {fileID: 215597856}
   m_Direction: 2
-  m_Value: 0.99999976
-  m_Size: 0.57100856
+  m_Value: 1
+  m_Size: 0.5710086
   m_NumberOfSteps: 10
   m_OnValueChanged:
     m_PersistentCalls:
@@ -12200,19 +12200,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 876582912}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1358149170}
-        m_MethodName: SpawnTorso
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 277960545515118238, guid: bd145fef025898443aa42f7ecea3fe94,
-            type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &876582912
@@ -12293,6 +12281,24 @@ MonoBehaviour:
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 13
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1358149170}
+          m_MethodName: SpawnTorso
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 277960545515118238, guid: bd145fef025898443aa42f7ecea3fe94,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -15799,6 +15805,24 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 13
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1358149170}
+          m_MethodName: SpawnTorso
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1033002884357518690, guid: a296405adbc48d6409d0e8dd872e1e0e,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!1 &1067431484
 GameObject:
   m_ObjectHideFlags: 0
@@ -15961,19 +15985,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1080193205}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1358149170}
-        m_MethodName: SpawnTorso
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 277960545515118238, guid: bd145fef025898443aa42f7ecea3fe94,
-            type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1080193205
@@ -16071,6 +16083,24 @@ MonoBehaviour:
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 13
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1358149170}
+          m_MethodName: SpawnTorso
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 277960545515118238, guid: bd145fef025898443aa42f7ecea3fe94,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -16587,6 +16617,24 @@ MonoBehaviour:
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 13
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1358149170}
+          m_MethodName: SpawnTorso
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1033002884357518690, guid: a296405adbc48d6409d0e8dd872e1e0e,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -18009,7 +18057,7 @@ PrefabInstance:
     - target: {fileID: 5549841018062262418, guid: added44e963041847925376c669f8682,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5549841018062262417, guid: added44e963041847925376c669f8682,
         type: 3}
@@ -25237,6 +25285,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   powerProduced: 0
   powerUsed: 0
+  weight: 0
+  strength: 0
+  integrity: 0
+  mobility: 0
+  vision: 0
+  range: 0
 --- !u!224 &1636372632
 RectTransform:
   m_ObjectHideFlags: 0

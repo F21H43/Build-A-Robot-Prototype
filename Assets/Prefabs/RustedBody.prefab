@@ -143,7 +143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e53f86ccb13a8774eb1ec62afdbc5447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isHeld: 0
+  isHeld: 1
   canRotate: 1
   isRotating: 0
 --- !u!114 &2348364731378308645
@@ -160,3 +160,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   powerUsage: 0
   powerProduction: 1500
+  weight: 0
+  strength: 0
+  integrity: 0
+  mobility: 0
+  vision: 0
+  range: 0
