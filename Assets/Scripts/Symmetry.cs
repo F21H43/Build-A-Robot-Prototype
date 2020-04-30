@@ -9,6 +9,8 @@ public class Symmetry : MonoBehaviour
     GameObject leftLeg;
     [SerializeField]
     GameObject rightLeg;
+    [SerializeField]
+    Vector3 startPos = new Vector3(4, 1, 0);
 
     //bool to toggle on off the symmetry
     public bool symEnabled = false;
@@ -17,6 +19,7 @@ public class Symmetry : MonoBehaviour
     private void Start()
     {
         ToggleSymmetry(false);
+        transform.position = startPos;
     }
 
     /// <summary>
@@ -25,55 +28,84 @@ public class Symmetry : MonoBehaviour
     public void ToggleSymmetry(bool setSym)
     {
         symEnabled = setSym;
-        rightLeg.transform.localPosition = leftLeg.transform.localPosition;
+        rightLeg.transform.localPosition = new Vector3(-leftLeg.transform.localPosition.x, leftLeg.transform.localPosition.y, leftLeg.transform.localPosition.z);
         rightLeg.SetActive(symEnabled);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (leftLeg.GetComponent<Drag>().isHeld || Drag.selectedObj == leftLeg)
-        {
-            if (Input.GetKeyDown(KeyCode.S))
-            {
-                ToggleSymmetry(!symEnabled);
-            }
-        }
-        
 
-       // if (symEnabled)
-      //  {
-            if (leftLeg == null || rightLeg == null)
+        //kills the object if one of it's partners is destroyed
+        if (leftLeg == null || rightLeg == null)
+        {
+            Destroy(gameObject);
+        } else
+        {
+            //symmetry hot key
+            if (leftLeg.GetComponent<Drag>().isHeld || Drag.selectedObj == leftLeg)
             {
-                Destroy(gameObject);
+                if (Input.GetKeyDown(KeyCode.S))
+                {
+                    ToggleSymmetry(!symEnabled);
+                }
             }
+
+
+
+            //moves the symmetry point to the torso if it exists
             if (torso != null)
             {
                 if (!torso.gameObject.GetComponent<Drag>().isHeld && !leftLeg.GetComponent<Drag>().isHeld && !rightLeg.GetComponent<Drag>().isHeld)
                 {
+
+                    Vector3 leftTempPos = leftLeg.transform.position;
+                    Vector3 rightTempPos = rightLeg.transform.position;
                     transform.position = torso.position;
+                    leftLeg.transform.position = leftTempPos;
+                    rightLeg.transform.position = rightTempPos;
                 }
             }
 
-            if (leftLeg.GetComponent<Drag>().isHeld)
+            //mirrors all effects applied to one of the halves
+            if (symEnabled)
             {
-                rightLeg.transform.localPosition = new Vector3(-leftLeg.transform.localPosition.x, leftLeg.transform.localPosition.y, leftLeg.transform.localPosition.z);
+                //mirror left to right
+                if (leftLeg.GetComponent<Drag>().isHeld)
+                {
+                    //position mirror
+                    rightLeg.transform.localPosition = new Vector3(-leftLeg.transform.localPosition.x, leftLeg.transform.localPosition.y, leftLeg.transform.localPosition.z);
+                }
+                ///Mirror right to left
+                if (rightLeg.GetComponent<Drag>().isHeld)
+                {
+                    //position mirror
+                    leftLeg.transform.localPosition = new Vector3(-rightLeg.transform.localPosition.x, rightLeg.transform.localPosition.y, rightLeg.transform.localPosition.z);
+                }
+            }
+
+            //these mirrors apply when symmetry is off so that it maintains symmtery when it turns on
+            if (Drag.selectedObj == leftLeg)
+            {
+                //rotation mirror
                 if (leftLeg.GetComponent<Drag>().isRotating != 0)
                 {
                     rightLeg.GetComponent<Drag>().RotatePart(-leftLeg.GetComponent<Drag>().isRotating);
                 }
+                //scale or flip mirror
                 rightLeg.transform.localScale = leftLeg.transform.localScale;
             }
-
-            if (rightLeg.GetComponent<Drag>().isHeld)
+            if (Drag.selectedObj == rightLeg)
             {
-                leftLeg.transform.localPosition = new Vector3(-rightLeg.transform.localPosition.x, rightLeg.transform.localPosition.y, rightLeg.transform.localPosition.z);
+                //rotation mirror
                 if (rightLeg.GetComponent<Drag>().isRotating != 0)
                 {
                     leftLeg.GetComponent<Drag>().RotatePart(-rightLeg.GetComponent<Drag>().isRotating);
                 }
+                //flip mirror
+                leftLeg.transform.localScale = rightLeg.transform.localScale;
             }
-            leftLeg.transform.localScale = rightLeg.transform.localScale;
+
         }
-  //  }
+    }
 }

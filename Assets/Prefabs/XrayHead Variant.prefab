@@ -127,6 +127,11 @@ PrefabInstance:
       propertyPath: vision
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 514989075689012991, guid: 5753321b231d27b4fb71106ae4803cb8,
+        type: 3}
+      propertyPath: description
+      value: 'X-ray Vision: Can see materials hidden in rock'
+      objectReference: {fileID: 0}
     - target: {fileID: 3756033747278678602, guid: 5753321b231d27b4fb71106ae4803cb8,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -136,6 +141,78 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.169
+      objectReference: {fileID: 0}
+    - target: {fileID: 2466495106389411242, guid: 5753321b231d27b4fb71106ae4803cb8,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4c7351ee4549dc745bd582a6e91f23e6,
+        type: 3}
+    - target: {fileID: 304084896022425437, guid: 5753321b231d27b4fb71106ae4803cb8,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 304084896022425437, guid: 5753321b231d27b4fb71106ae4803cb8,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 304084896022425437, guid: 5753321b231d27b4fb71106ae4803cb8,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 304084896022425437, guid: 5753321b231d27b4fb71106ae4803cb8,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739016718705488151, guid: 5753321b231d27b4fb71106ae4803cb8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.518
+      objectReference: {fileID: 0}
+    - target: {fileID: 8862032053190418003, guid: 5753321b231d27b4fb71106ae4803cb8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4055243548737399851, guid: 5753321b231d27b4fb71106ae4803cb8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.203
+      objectReference: {fileID: 0}
+    - target: {fileID: 51471398448296565, guid: 5753321b231d27b4fb71106ae4803cb8,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4c7351ee4549dc745bd582a6e91f23e6,
+        type: 3}
+    - target: {fileID: 7323023068948077636, guid: 5753321b231d27b4fb71106ae4803cb8,
+        type: 3}
+      propertyPath: isHeld
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8275779382813728163, guid: 5753321b231d27b4fb71106ae4803cb8,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 8275779382813728163, guid: 5753321b231d27b4fb71106ae4803cb8,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 8275779382813728163, guid: 5753321b231d27b4fb71106ae4803cb8,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 8275779382813728163, guid: 5753321b231d27b4fb71106ae4803cb8,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.54
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5753321b231d27b4fb71106ae4803cb8, type: 3}

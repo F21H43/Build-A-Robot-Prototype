@@ -124,5 +124,123 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: -0.68
       objectReference: {fileID: 0}
+    - target: {fileID: 8809076980625209971, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8809076980625209971, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6472490971331724631, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6d407eb7088884b4b85803d163a27406,
+        type: 3}
+    - target: {fileID: 6472490971331724631, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5931407059399677, guid: b21670f44ce8c9f45a1a108e97a53db0, type: 3}
+      propertyPath: m_Size.x
+      value: 1.895
+      objectReference: {fileID: 0}
+    - target: {fileID: 5931407059399677, guid: b21670f44ce8c9f45a1a108e97a53db0, type: 3}
+      propertyPath: m_Size.y
+      value: 4.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 5931407059399677, guid: b21670f44ce8c9f45a1a108e97a53db0, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.895
+      objectReference: {fileID: 0}
+    - target: {fileID: 5931407059399677, guid: b21670f44ce8c9f45a1a108e97a53db0, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 4.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 1431949236290273014, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 7260995515836469161, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6584177992752202695, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6584177992752202695, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1738303756633417955, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1738303756633417955, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6d407eb7088884b4b85803d163a27406,
+        type: 3}
+    - target: {fileID: 2156089454594416385, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1.895
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156089454594416385, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 4.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156089454594416385, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.895
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156089454594416385, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 4.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 8264897656554714040, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: powerUsage
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 8264897656554714040, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: weight
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8264897656554714040, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: strength
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8264897656554714040, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: integrity
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8264897656554714040, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: range
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8264897656554714040, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: description
+      value: 'Fishing: Can reel in resources from afar'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b21670f44ce8c9f45a1a108e97a53db0, type: 3}
