@@ -14,6 +14,8 @@ public class PartStats : MonoBehaviour
     public int range;
     RobotStats rs;
 
+    public string description;
+
     // Start is called before the first frame update
     void Start()
     {

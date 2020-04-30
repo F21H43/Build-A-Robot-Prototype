@@ -210,6 +210,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9223301}
   m_CullTransparentMesh: 0
+--- !u!114 &10672788 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8368425387208525397, guid: added44e963041847925376c669f8682,
+    type: 3}
+  m_PrefabInstance: {fileID: 1161298963}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &28816612
 GameObject:
   m_ObjectHideFlags: 0
@@ -680,7 +692,6 @@ GameObject:
   - component: {fileID: 68694647}
   - component: {fileID: 68694646}
   - component: {fileID: 68694645}
-  - component: {fileID: 68694649}
   - component: {fileID: 68694648}
   m_Layer: 5
   m_Name: Button
@@ -828,12 +839,13 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 68694649}
+        - m_Target: {fileID: 1358149172}
           m_MethodName: SpawnMouseOver
-          m_Mode: 1
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 277960545515118238, guid: 5753321b231d27b4fb71106ae4803cb8,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -845,7 +857,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 68694649}
+        - m_Target: {fileID: 1358149172}
           m_MethodName: DeleteMouseOver
           m_Mode: 1
           m_Arguments:
@@ -858,23 +870,6 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
---- !u!114 &68694649
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 68694643}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61ee34868943606459fa5b02aac129de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverPanel: {fileID: 359085899}
-  mouseOverPanelText: {fileID: 1792760372}
-  mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'Cost: 100 ziG'
-  descriptionDisplay: Cheap, but offers no benefits.
 --- !u!1 &76608902
 GameObject:
   m_ObjectHideFlags: 0
@@ -1372,7 +1367,6 @@ GameObject:
   - component: {fileID: 136312524}
   - component: {fileID: 136312523}
   - component: {fileID: 136312522}
-  - component: {fileID: 136312526}
   - component: {fileID: 136312525}
   m_Layer: 5
   m_Name: Button (2)
@@ -1507,7 +1501,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 136312526}
+        - m_Target: {fileID: 0}
           m_MethodName: SpawnMouseOver
           m_Mode: 1
           m_Arguments:
@@ -1524,7 +1518,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 136312526}
+        - m_Target: {fileID: 0}
           m_MethodName: DeleteMouseOver
           m_Mode: 1
           m_Arguments:
@@ -1537,23 +1531,6 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
---- !u!114 &136312526
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 136312520}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61ee34868943606459fa5b02aac129de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverPanel: {fileID: 359085899}
-  mouseOverPanelText: {fileID: 1792760372}
-  mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'Cost: 500 ziG'
-  descriptionDisplay: 
 --- !u!1 &137829847
 GameObject:
   m_ObjectHideFlags: 0
@@ -2519,7 +2496,6 @@ GameObject:
   - component: {fileID: 241660770}
   - component: {fileID: 241660769}
   - component: {fileID: 241660768}
-  - component: {fileID: 241660772}
   - component: {fileID: 241660771}
   m_Layer: 5
   m_Name: Button (2)
@@ -2654,7 +2630,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 241660772}
+        - m_Target: {fileID: 0}
           m_MethodName: SpawnMouseOver
           m_Mode: 1
           m_Arguments:
@@ -2671,7 +2647,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 241660772}
+        - m_Target: {fileID: 0}
           m_MethodName: DeleteMouseOver
           m_Mode: 1
           m_Arguments:
@@ -2684,23 +2660,6 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
---- !u!114 &241660772
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 241660766}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61ee34868943606459fa5b02aac129de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverPanel: {fileID: 359085899}
-  mouseOverPanelText: {fileID: 1792760372}
-  mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'Cost: 500 ziG'
-  descriptionDisplay: 
 --- !u!1 &247228953
 GameObject:
   m_ObjectHideFlags: 0
@@ -2871,7 +2830,6 @@ GameObject:
   - component: {fileID: 260410583}
   - component: {fileID: 260410582}
   - component: {fileID: 260410581}
-  - component: {fileID: 260410585}
   - component: {fileID: 260410584}
   m_Layer: 5
   m_Name: Button
@@ -3018,7 +2976,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 260410585}
+        - m_Target: {fileID: 0}
           m_MethodName: SpawnMouseOver
           m_Mode: 1
           m_Arguments:
@@ -3035,7 +2993,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 260410585}
+        - m_Target: {fileID: 0}
           m_MethodName: DeleteMouseOver
           m_Mode: 1
           m_Arguments:
@@ -3048,23 +3006,6 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
---- !u!114 &260410585
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 260410579}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61ee34868943606459fa5b02aac129de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverPanel: {fileID: 359085899}
-  mouseOverPanelText: {fileID: 1792760372}
-  mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'Cost: 100 ziG'
-  descriptionDisplay: Cheap, but offers no benefits.
 --- !u!1 &267355018
 GameObject:
   m_ObjectHideFlags: 0
@@ -3760,7 +3701,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: -63.96}
-  m_SizeDelta: {x: 382.2, y: 351.04}
+  m_SizeDelta: {x: 382.2, y: 387.06}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &305143931
 MonoBehaviour:
@@ -6375,6 +6316,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 516000299}
   m_CullTransparentMesh: 0
+--- !u!114 &517631349 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 517631349, guid: added44e963041847925376c669f8682,
+    type: 3}
+  m_PrefabInstance: {fileID: 1161298963}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519163300
 GameObject:
   m_ObjectHideFlags: 0
@@ -6620,7 +6573,6 @@ GameObject:
   - component: {fileID: 537485127}
   - component: {fileID: 537485126}
   - component: {fileID: 537485125}
-  - component: {fileID: 537485129}
   - component: {fileID: 537485128}
   m_Layer: 5
   m_Name: Button
@@ -6767,7 +6719,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 537485129}
+        - m_Target: {fileID: 0}
           m_MethodName: SpawnMouseOver
           m_Mode: 1
           m_Arguments:
@@ -6784,7 +6736,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 537485129}
+        - m_Target: {fileID: 0}
           m_MethodName: DeleteMouseOver
           m_Mode: 1
           m_Arguments:
@@ -6797,23 +6749,6 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
---- !u!114 &537485129
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 537485123}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61ee34868943606459fa5b02aac129de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverPanel: {fileID: 359085899}
-  mouseOverPanelText: {fileID: 1792760372}
-  mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'Cost: 125 ziG'
-  descriptionDisplay: Cheap, but offers no benefits.
 --- !u!1 &539961739
 GameObject:
   m_ObjectHideFlags: 0
@@ -8559,7 +8494,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 215597856}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.5710086
+  m_Size: 0.63258123
   m_NumberOfSteps: 10
   m_OnValueChanged:
     m_PersistentCalls:
@@ -9212,7 +9147,6 @@ GameObject:
   - component: {fileID: 709711909}
   - component: {fileID: 709711908}
   - component: {fileID: 709711907}
-  - component: {fileID: 709711911}
   - component: {fileID: 709711910}
   m_Layer: 5
   m_Name: Button (1)
@@ -9347,7 +9281,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 709711911}
+        - m_Target: {fileID: 0}
           m_MethodName: SpawnMouseOver
           m_Mode: 1
           m_Arguments:
@@ -9364,7 +9298,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 709711911}
+        - m_Target: {fileID: 0}
           m_MethodName: DeleteMouseOver
           m_Mode: 1
           m_Arguments:
@@ -9377,23 +9311,6 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
---- !u!114 &709711911
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 709711905}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61ee34868943606459fa5b02aac129de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverPanel: {fileID: 359085899}
-  mouseOverPanelText: {fileID: 1792760372}
-  mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'Cost: 500 ziG'
-  descriptionDisplay: 
 --- !u!1 &722529597
 GameObject:
   m_ObjectHideFlags: 0
@@ -9968,7 +9885,6 @@ GameObject:
   - component: {fileID: 741239797}
   - component: {fileID: 741239796}
   - component: {fileID: 741239795}
-  - component: {fileID: 741239799}
   - component: {fileID: 741239798}
   m_Layer: 5
   m_Name: Button
@@ -10115,7 +10031,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 741239799}
+        - m_Target: {fileID: 0}
           m_MethodName: SpawnMouseOver
           m_Mode: 1
           m_Arguments:
@@ -10132,7 +10048,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 741239799}
+        - m_Target: {fileID: 0}
           m_MethodName: DeleteMouseOver
           m_Mode: 1
           m_Arguments:
@@ -10145,23 +10061,6 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
---- !u!114 &741239799
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 741239793}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61ee34868943606459fa5b02aac129de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverPanel: {fileID: 359085899}
-  mouseOverPanelText: {fileID: 1792760372}
-  mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'Cost: 200 ziG'
-  descriptionDisplay: Cheap, but offers no benefits.
 --- !u!1 &753091693
 GameObject:
   m_ObjectHideFlags: 0
@@ -10808,7 +10707,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: -63.96}
-  m_SizeDelta: {x: 382.2, y: 351.04}
+  m_SizeDelta: {x: 382.2, y: 387.06}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &791937655
 MonoBehaviour:
@@ -10922,7 +10821,6 @@ GameObject:
   - component: {fileID: 793785757}
   - component: {fileID: 793785756}
   - component: {fileID: 793785755}
-  - component: {fileID: 793785759}
   - component: {fileID: 793785758}
   m_Layer: 5
   m_Name: Button (1)
@@ -11057,7 +10955,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 793785759}
+        - m_Target: {fileID: 0}
           m_MethodName: SpawnMouseOver
           m_Mode: 1
           m_Arguments:
@@ -11074,7 +10972,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 793785759}
+        - m_Target: {fileID: 0}
           m_MethodName: DeleteMouseOver
           m_Mode: 1
           m_Arguments:
@@ -11087,23 +10985,6 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
---- !u!114 &793785759
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 793785753}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61ee34868943606459fa5b02aac129de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverPanel: {fileID: 359085899}
-  mouseOverPanelText: {fileID: 1792760372}
-  mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'Cost: 500 ziG'
-  descriptionDisplay: 
 --- !u!1 &809685932
 GameObject:
   m_ObjectHideFlags: 0
@@ -12128,7 +12009,6 @@ GameObject:
   - component: {fileID: 876582913}
   - component: {fileID: 876582912}
   - component: {fileID: 876582911}
-  - component: {fileID: 876582915}
   - component: {fileID: 876582914}
   m_Layer: 5
   m_Name: Button
@@ -12258,12 +12138,13 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 876582915}
+        - m_Target: {fileID: 1358149172}
           m_MethodName: SpawnMouseOver
-          m_Mode: 1
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 277960545515118238, guid: bd145fef025898443aa42f7ecea3fe94,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -12275,7 +12156,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 876582915}
+        - m_Target: {fileID: 1358149172}
           m_MethodName: DeleteMouseOver
           m_Mode: 1
           m_Arguments:
@@ -12306,23 +12187,6 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
---- !u!114 &876582915
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 876582909}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61ee34868943606459fa5b02aac129de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverPanel: {fileID: 359085899}
-  mouseOverPanelText: {fileID: 1792760372}
-  mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'ziG Capacity: 1500 ziG'
-  descriptionDisplay: Cheap, but offers no benefits.
 --- !u!1 &891033284
 GameObject:
   m_ObjectHideFlags: 0
@@ -12363,7 +12227,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: -63.96}
-  m_SizeDelta: {x: 382.2, y: 351.04}
+  m_SizeDelta: {x: 382.2, y: 387.06}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &891033286
 MonoBehaviour:
@@ -13081,7 +12945,6 @@ GameObject:
   - component: {fileID: 937789060}
   - component: {fileID: 937789059}
   - component: {fileID: 937789058}
-  - component: {fileID: 937789062}
   - component: {fileID: 937789061}
   m_Layer: 5
   m_Name: Button (1)
@@ -13216,7 +13079,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 937789062}
+        - m_Target: {fileID: 0}
           m_MethodName: SpawnMouseOver
           m_Mode: 1
           m_Arguments:
@@ -13233,7 +13096,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 937789062}
+        - m_Target: {fileID: 0}
           m_MethodName: DeleteMouseOver
           m_Mode: 1
           m_Arguments:
@@ -13246,23 +13109,6 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
---- !u!114 &937789062
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 937789056}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61ee34868943606459fa5b02aac129de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverPanel: {fileID: 359085899}
-  mouseOverPanelText: {fileID: 1792760372}
-  mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'Cost: 500 ziG'
-  descriptionDisplay: 
 --- !u!1 &940901011
 GameObject:
   m_ObjectHideFlags: 0
@@ -13977,7 +13823,6 @@ GameObject:
   - component: {fileID: 1000719211}
   - component: {fileID: 1000719210}
   - component: {fileID: 1000719209}
-  - component: {fileID: 1000719213}
   - component: {fileID: 1000719212}
   m_Layer: 5
   m_Name: Button (1)
@@ -14124,12 +13969,13 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1000719213}
+        - m_Target: {fileID: 1358149172}
           m_MethodName: SpawnMouseOver
-          m_Mode: 1
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 2672916141820071530, guid: d3373199688e57d449b37a2a6d45dfce,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -14141,7 +13987,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1000719213}
+        - m_Target: {fileID: 1358149172}
           m_MethodName: DeleteMouseOver
           m_Mode: 1
           m_Arguments:
@@ -14154,23 +14000,6 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
---- !u!114 &1000719213
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1000719207}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61ee34868943606459fa5b02aac129de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverPanel: {fileID: 359085899}
-  mouseOverPanelText: {fileID: 1792760372}
-  mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'Cost: 500 ziG'
-  descriptionDisplay: If it's too far away to grab, just use this to reach further
 --- !u!1 &1004035237
 GameObject:
   m_ObjectHideFlags: 0
@@ -14424,7 +14253,6 @@ GameObject:
   - component: {fileID: 1008671944}
   - component: {fileID: 1008671943}
   - component: {fileID: 1008671942}
-  - component: {fileID: 1008671946}
   - component: {fileID: 1008671945}
   m_Layer: 5
   m_Name: Button (2)
@@ -14559,7 +14387,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1008671946}
+        - m_Target: {fileID: 0}
           m_MethodName: SpawnMouseOver
           m_Mode: 1
           m_Arguments:
@@ -14576,7 +14404,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1008671946}
+        - m_Target: {fileID: 0}
           m_MethodName: DeleteMouseOver
           m_Mode: 1
           m_Arguments:
@@ -14589,23 +14417,6 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
---- !u!114 &1008671946
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1008671940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61ee34868943606459fa5b02aac129de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverPanel: {fileID: 359085899}
-  mouseOverPanelText: {fileID: 1792760372}
-  mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'Cost: 500 ziG'
-  descriptionDisplay: 
 --- !u!1 &1015471216
 GameObject:
   m_ObjectHideFlags: 0
@@ -15629,7 +15440,6 @@ GameObject:
   - component: {fileID: 1060583129}
   - component: {fileID: 1060583128}
   - component: {fileID: 1060583127}
-  - component: {fileID: 1060583130}
   - component: {fileID: 1060583131}
   m_Layer: 5
   m_Name: Button (1)
@@ -15741,23 +15551,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1060583125}
   m_CullTransparentMesh: 0
---- !u!114 &1060583130
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1060583125}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61ee34868943606459fa5b02aac129de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverPanel: {fileID: 359085899}
-  mouseOverPanelText: {fileID: 1792760372}
-  mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'ziG Capacity: 1500 ziG'
-  descriptionDisplay: 
 --- !u!114 &1060583131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15775,7 +15568,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1060583130}
+        - m_Target: {fileID: 0}
           m_MethodName: SpawnMouseOver
           m_Mode: 1
           m_Arguments:
@@ -15792,7 +15585,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1060583130}
+        - m_Target: {fileID: 0}
           m_MethodName: DeleteMouseOver
           m_Mode: 1
           m_Arguments:
@@ -15914,7 +15707,6 @@ GameObject:
   - component: {fileID: 1080193206}
   - component: {fileID: 1080193205}
   - component: {fileID: 1080193204}
-  - component: {fileID: 1080193207}
   - component: {fileID: 1080193208}
   m_Layer: 5
   m_Name: Button
@@ -16026,23 +15818,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1080193202}
   m_CullTransparentMesh: 0
---- !u!114 &1080193207
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1080193202}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61ee34868943606459fa5b02aac129de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverPanel: {fileID: 359085899}
-  mouseOverPanelText: {fileID: 1792760372}
-  mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'ziG Capacity: 1500 ziG'
-  descriptionDisplay: Cheap, but offers no benefits.
 --- !u!114 &1080193208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16060,7 +15835,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1080193207}
+        - m_Target: {fileID: 0}
           m_MethodName: SpawnMouseOver
           m_Mode: 1
           m_Arguments:
@@ -16077,7 +15852,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1080193207}
+        - m_Target: {fileID: 0}
           m_MethodName: DeleteMouseOver
           m_Mode: 1
           m_Arguments:
@@ -16435,7 +16210,6 @@ GameObject:
   - component: {fileID: 1095915928}
   - component: {fileID: 1095915927}
   - component: {fileID: 1095915926}
-  - component: {fileID: 1095915929}
   - component: {fileID: 1095915930}
   m_Layer: 5
   m_Name: Button (1)
@@ -16560,23 +16334,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1095915924}
   m_CullTransparentMesh: 0
---- !u!114 &1095915929
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1095915924}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61ee34868943606459fa5b02aac129de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverPanel: {fileID: 359085899}
-  mouseOverPanelText: {fileID: 1792760372}
-  mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'ziG Capacity: 1500 ziG'
-  descriptionDisplay: A modern Luxury torso
 --- !u!114 &1095915930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16594,12 +16351,13 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1095915929}
+        - m_Target: {fileID: 1358149172}
           m_MethodName: SpawnMouseOver
-          m_Mode: 1
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 1033002884357518690, guid: a296405adbc48d6409d0e8dd872e1e0e,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -16611,7 +16369,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1095915929}
+        - m_Target: {fileID: 1358149172}
           m_MethodName: DeleteMouseOver
           m_Mode: 1
           m_Arguments:
@@ -18054,11 +17812,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: MouseOverPanel
       objectReference: {fileID: 0}
-    - target: {fileID: 5549841018062262418, guid: added44e963041847925376c669f8682,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5549841018062262417, guid: added44e963041847925376c669f8682,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18116,13 +17869,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5549841018062262417, guid: added44e963041847925376c669f8682,
         type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -126.14995
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549841018062262417, guid: added44e963041847925376c669f8682,
+        type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 57.299995
+      value: 95.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549841018062262417, guid: added44e963041847925376c669f8682,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 258
       objectReference: {fileID: 0}
     - target: {fileID: 5549841018062262417, guid: added44e963041847925376c669f8682,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 114.600006
+      value: 203.2
       objectReference: {fileID: 0}
     - target: {fileID: 5549841018062262417, guid: added44e963041847925376c669f8682,
         type: 3}
@@ -18153,86 +17916,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.9999999
-      objectReference: {fileID: 0}
-    - target: {fileID: 5549841018062262417, guid: added44e963041847925376c669f8682,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -126.14995
-      objectReference: {fileID: 0}
-    - target: {fileID: 5549841018062262417, guid: added44e963041847925376c669f8682,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 252.29999
-      objectReference: {fileID: 0}
-    - target: {fileID: 5549841018062262416, guid: added44e963041847925376c669f8682,
-        type: 3}
-      propertyPath: m_Color.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5549841017340205935, guid: added44e963041847925376c669f8682,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5549841017340205935, guid: added44e963041847925376c669f8682,
-        type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5549841017340205935, guid: added44e963041847925376c669f8682,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5549841017340205935, guid: added44e963041847925376c669f8682,
-        type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5549841017340205935, guid: added44e963041847925376c669f8682,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5549841017340205935, guid: added44e963041847925376c669f8682,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 89.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 4649084521748538810, guid: added44e963041847925376c669f8682,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 34.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4649084521748538810, guid: added44e963041847925376c669f8682,
-        type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4649084521748538810, guid: added44e963041847925376c669f8682,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4649084521748538810, guid: added44e963041847925376c669f8682,
-        type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4649084521748538810, guid: added44e963041847925376c669f8682,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4649084521748538810, guid: added44e963041847925376c669f8682,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4649084521748538810, guid: added44e963041847925376c669f8682,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 57.7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: added44e963041847925376c669f8682, type: 3}
@@ -18608,7 +18291,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: -63.96}
-  m_SizeDelta: {x: 382.2, y: 351.04}
+  m_SizeDelta: {x: 382.2, y: 387.06}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1205725494
 MonoBehaviour:
@@ -18855,7 +18538,6 @@ GameObject:
   - component: {fileID: 1215938495}
   - component: {fileID: 1215938494}
   - component: {fileID: 1215938493}
-  - component: {fileID: 1215938497}
   - component: {fileID: 1215938496}
   m_Layer: 5
   m_Name: Button (1)
@@ -19002,12 +18684,13 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1215938497}
+        - m_Target: {fileID: 1358149172}
           m_MethodName: SpawnMouseOver
-          m_Mode: 1
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 3095837299600559333, guid: 315237e9962440e48a7890cdb8d5820a,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -19019,7 +18702,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1215938497}
+        - m_Target: {fileID: 1358149172}
           m_MethodName: DeleteMouseOver
           m_Mode: 1
           m_Arguments:
@@ -19032,23 +18715,6 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
---- !u!114 &1215938497
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1215938491}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61ee34868943606459fa5b02aac129de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverPanel: {fileID: 359085899}
-  mouseOverPanelText: {fileID: 1792760372}
-  mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'Cost: 350 ziG'
-  descriptionDisplay: If you're not sure what's there, just look through it
 --- !u!1 &1220393634
 GameObject:
   m_ObjectHideFlags: 0
@@ -19686,7 +19352,6 @@ GameObject:
   - component: {fileID: 1281765733}
   - component: {fileID: 1281765732}
   - component: {fileID: 1281765731}
-  - component: {fileID: 1281765735}
   - component: {fileID: 1281765734}
   m_Layer: 5
   m_Name: Button (2)
@@ -19821,7 +19486,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1281765735}
+        - m_Target: {fileID: 0}
           m_MethodName: SpawnMouseOver
           m_Mode: 1
           m_Arguments:
@@ -19838,7 +19503,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1281765735}
+        - m_Target: {fileID: 0}
           m_MethodName: DeleteMouseOver
           m_Mode: 1
           m_Arguments:
@@ -19851,23 +19516,6 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
---- !u!114 &1281765735
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1281765729}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61ee34868943606459fa5b02aac129de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverPanel: {fileID: 359085899}
-  mouseOverPanelText: {fileID: 1792760372}
-  mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'Cost: 500 ziG'
-  descriptionDisplay: 
 --- !u!1 &1283270275
 GameObject:
   m_ObjectHideFlags: 0
@@ -21248,6 +20896,7 @@ GameObject:
   - component: {fileID: 1358149166}
   - component: {fileID: 1358149170}
   - component: {fileID: 1358149171}
+  - component: {fileID: 1358149172}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -21383,6 +21032,26 @@ MonoBehaviour:
   powerText: {fileID: 1975881531}
   partDescription: {fileID: 2033866165}
   closePanel: {fileID: 347901959}
+--- !u!114 &1358149172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358149165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61ee34868943606459fa5b02aac129de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseOverPanel: {fileID: 359085899}
+  mouseOverText1: {fileID: 1792760372}
+  mouseOverText2: {fileID: 1161298964}
+  mouseOverText3: {fileID: 1747583411}
+  mouseOverText4: {fileID: 10672788}
+  mouseOverText5: {fileID: 2114139322}
+  mouseOverText6: {fileID: 1831392561}
+  mouseOverText7: {fileID: 517631349}
 --- !u!1 &1360702731
 GameObject:
   m_ObjectHideFlags: 0
@@ -22521,7 +22190,6 @@ GameObject:
   - component: {fileID: 1514226095}
   - component: {fileID: 1514226094}
   - component: {fileID: 1514226093}
-  - component: {fileID: 1514226097}
   - component: {fileID: 1514226096}
   m_Layer: 5
   m_Name: RustyLegButton
@@ -22680,12 +22348,13 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1514226097}
+        - m_Target: {fileID: 1358149172}
           m_MethodName: SpawnMouseOver
-          m_Mode: 1
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 277960545515118238, guid: 0ddfac8948c53d743b655b60ef8996ff,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -22697,7 +22366,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1514226097}
+        - m_Target: {fileID: 1358149172}
           m_MethodName: DeleteMouseOver
           m_Mode: 1
           m_Arguments:
@@ -22710,23 +22379,6 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
---- !u!114 &1514226097
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1514226091}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61ee34868943606459fa5b02aac129de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverPanel: {fileID: 359085899}
-  mouseOverPanelText: {fileID: 1792760372}
-  mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'Cost: 125 ziG'
-  descriptionDisplay: Cheap, but offers no benefits.
 --- !u!1 &1518364351
 GameObject:
   m_ObjectHideFlags: 0
@@ -23240,7 +22892,6 @@ GameObject:
   - component: {fileID: 1531394358}
   - component: {fileID: 1531394357}
   - component: {fileID: 1531394356}
-  - component: {fileID: 1531394359}
   - component: {fileID: 1531394360}
   m_Layer: 5
   m_Name: Button (2)
@@ -23352,23 +23003,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1531394354}
   m_CullTransparentMesh: 0
---- !u!114 &1531394359
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1531394354}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61ee34868943606459fa5b02aac129de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverPanel: {fileID: 359085899}
-  mouseOverPanelText: {fileID: 1792760372}
-  mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'ziG Capacity: 1500 ziG'
-  descriptionDisplay: 
 --- !u!114 &1531394360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23386,7 +23020,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1531394359}
+        - m_Target: {fileID: 0}
           m_MethodName: SpawnMouseOver
           m_Mode: 1
           m_Arguments:
@@ -23403,7 +23037,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1531394359}
+        - m_Target: {fileID: 0}
           m_MethodName: DeleteMouseOver
           m_Mode: 1
           m_Arguments:
@@ -23610,7 +23244,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: -63.96}
-  m_SizeDelta: {x: 382.2, y: 351.04}
+  m_SizeDelta: {x: 382.2, y: 387.06}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1556781634
 MonoBehaviour:
@@ -23724,7 +23358,6 @@ GameObject:
   - component: {fileID: 1564036988}
   - component: {fileID: 1564036987}
   - component: {fileID: 1564036986}
-  - component: {fileID: 1564036990}
   - component: {fileID: 1564036989}
   m_Layer: 5
   m_Name: Button
@@ -23871,7 +23504,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1564036990}
+        - m_Target: {fileID: 0}
           m_MethodName: SpawnMouseOver
           m_Mode: 1
           m_Arguments:
@@ -23888,7 +23521,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1564036990}
+        - m_Target: {fileID: 0}
           m_MethodName: DeleteMouseOver
           m_Mode: 1
           m_Arguments:
@@ -23901,23 +23534,6 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
---- !u!114 &1564036990
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1564036984}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61ee34868943606459fa5b02aac129de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverPanel: {fileID: 359085899}
-  mouseOverPanelText: {fileID: 1792760372}
-  mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'Cost: 200 ziG'
-  descriptionDisplay: Cheap, but offers no benefits.
 --- !u!1 &1565690764
 GameObject:
   m_ObjectHideFlags: 0
@@ -24057,7 +23673,6 @@ GameObject:
   - component: {fileID: 1570823473}
   - component: {fileID: 1570823472}
   - component: {fileID: 1570823471}
-  - component: {fileID: 1570823475}
   - component: {fileID: 1570823474}
   m_Layer: 5
   m_Name: SpeedyLegButton
@@ -24204,12 +23819,13 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1570823475}
+        - m_Target: {fileID: 1358149172}
           m_MethodName: SpawnMouseOver
-          m_Mode: 1
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 7950101496887097384, guid: b958def8e184ac44fa0912a4b4cc4237,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -24221,7 +23837,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1570823475}
+        - m_Target: {fileID: 1358149172}
           m_MethodName: DeleteMouseOver
           m_Mode: 1
           m_Arguments:
@@ -24234,23 +23850,6 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
---- !u!114 &1570823475
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1570823469}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61ee34868943606459fa5b02aac129de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverPanel: {fileID: 359085899}
-  mouseOverPanelText: {fileID: 1792760372}
-  mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'Cost: 300 ziG'
-  descriptionDisplay: Get you places faster
 --- !u!1 &1577756050
 GameObject:
   m_ObjectHideFlags: 0
@@ -25653,7 +25252,6 @@ GameObject:
   - component: {fileID: 1649883393}
   - component: {fileID: 1649883392}
   - component: {fileID: 1649883391}
-  - component: {fileID: 1649883395}
   - component: {fileID: 1649883394}
   m_Layer: 5
   m_Name: Button (1)
@@ -25788,7 +25386,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1649883395}
+        - m_Target: {fileID: 0}
           m_MethodName: SpawnMouseOver
           m_Mode: 1
           m_Arguments:
@@ -25805,7 +25403,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1649883395}
+        - m_Target: {fileID: 0}
           m_MethodName: DeleteMouseOver
           m_Mode: 1
           m_Arguments:
@@ -25818,23 +25416,6 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
---- !u!114 &1649883395
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1649883389}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61ee34868943606459fa5b02aac129de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverPanel: {fileID: 359085899}
-  mouseOverPanelText: {fileID: 1792760372}
-  mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'Cost: 500 ziG'
-  descriptionDisplay: 
 --- !u!1 &1653192191
 GameObject:
   m_ObjectHideFlags: 0
@@ -26369,7 +25950,6 @@ GameObject:
   - component: {fileID: 1735906840}
   - component: {fileID: 1735906839}
   - component: {fileID: 1735906838}
-  - component: {fileID: 1735906842}
   - component: {fileID: 1735906841}
   m_Layer: 5
   m_Name: Button (2)
@@ -26504,7 +26084,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1735906842}
+        - m_Target: {fileID: 0}
           m_MethodName: SpawnMouseOver
           m_Mode: 1
           m_Arguments:
@@ -26521,7 +26101,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1735906842}
+        - m_Target: {fileID: 0}
           m_MethodName: DeleteMouseOver
           m_Mode: 1
           m_Arguments:
@@ -26534,23 +26114,6 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
---- !u!114 &1735906842
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1735906836}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61ee34868943606459fa5b02aac129de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverPanel: {fileID: 359085899}
-  mouseOverPanelText: {fileID: 1792760372}
-  mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'Cost: 400 ziG'
-  descriptionDisplay: Comming soon to a scrapyard near you
 --- !u!1 &1739058745
 GameObject:
   m_ObjectHideFlags: 0
@@ -26757,6 +26320,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1743843347}
   m_CullTransparentMesh: 0
+--- !u!114 &1747583411 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8391393146287784057, guid: added44e963041847925376c669f8682,
+    type: 3}
+  m_PrefabInstance: {fileID: 1161298963}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1773829119
 GameObject:
   m_ObjectHideFlags: 0
@@ -27030,7 +26605,6 @@ GameObject:
   - component: {fileID: 1788418323}
   - component: {fileID: 1788418322}
   - component: {fileID: 1788418321}
-  - component: {fileID: 1788418325}
   - component: {fileID: 1788418324}
   m_Layer: 5
   m_Name: RustyArmButton
@@ -27189,12 +26763,13 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1788418325}
+        - m_Target: {fileID: 1358149172}
           m_MethodName: SpawnMouseOver
-          m_Mode: 1
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 5230460517503411828, guid: b21670f44ce8c9f45a1a108e97a53db0,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -27206,7 +26781,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1788418325}
+        - m_Target: {fileID: 1358149172}
           m_MethodName: DeleteMouseOver
           m_Mode: 1
           m_Arguments:
@@ -27219,23 +26794,6 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
---- !u!114 &1788418325
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1788418319}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61ee34868943606459fa5b02aac129de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverPanel: {fileID: 359085899}
-  mouseOverPanelText: {fileID: 1792760372}
-  mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'Cost: 200 ziG'
-  descriptionDisplay: Cheap, but offers no benefits.
 --- !u!114 &1792760372 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5549841017340205934, guid: added44e963041847925376c669f8682,
@@ -27260,7 +26818,6 @@ GameObject:
   - component: {fileID: 1792936078}
   - component: {fileID: 1792936077}
   - component: {fileID: 1792936076}
-  - component: {fileID: 1792936080}
   - component: {fileID: 1792936079}
   m_Layer: 5
   m_Name: Button (2)
@@ -27407,12 +26964,13 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1792936080}
+        - m_Target: {fileID: 1358149172}
           m_MethodName: SpawnMouseOver
-          m_Mode: 1
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 8714007183173504494, guid: 2e575c42da4a30247bf3a09227bedb0f,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -27424,7 +26982,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1792936080}
+        - m_Target: {fileID: 1358149172}
           m_MethodName: DeleteMouseOver
           m_Mode: 1
           m_Arguments:
@@ -27437,23 +26995,6 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
---- !u!114 &1792936080
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1792936074}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61ee34868943606459fa5b02aac129de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverPanel: {fileID: 359085899}
-  mouseOverPanelText: {fileID: 1792760372}
-  mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'Cost: 400 ziG'
-  descriptionDisplay: The drill can collect resources faster.
 --- !u!1 &1793673426
 GameObject:
   m_ObjectHideFlags: 0
@@ -28219,6 +27760,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1825770608}
   m_CullTransparentMesh: 0
+--- !u!114 &1831392561 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1831392561, guid: added44e963041847925376c669f8682,
+    type: 3}
+  m_PrefabInstance: {fileID: 1161298963}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1836664872
 GameObject:
   m_ObjectHideFlags: 0
@@ -28694,7 +28247,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: -63.96}
-  m_SizeDelta: {x: 382.2, y: 351.04}
+  m_SizeDelta: {x: 382.2, y: 387.06}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1871392441
 MonoBehaviour:
@@ -29104,7 +28657,6 @@ GameObject:
   - component: {fileID: 1932541451}
   - component: {fileID: 1932541450}
   - component: {fileID: 1932541449}
-  - component: {fileID: 1932541453}
   - component: {fileID: 1932541452}
   m_Layer: 5
   m_Name: Button (2)
@@ -29239,7 +28791,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1932541453}
+        - m_Target: {fileID: 0}
           m_MethodName: SpawnMouseOver
           m_Mode: 1
           m_Arguments:
@@ -29256,7 +28808,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1932541453}
+        - m_Target: {fileID: 0}
           m_MethodName: DeleteMouseOver
           m_Mode: 1
           m_Arguments:
@@ -29269,23 +28821,6 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
---- !u!114 &1932541453
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1932541447}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61ee34868943606459fa5b02aac129de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverPanel: {fileID: 359085899}
-  mouseOverPanelText: {fileID: 1792760372}
-  mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'Cost: 500 ziG'
-  descriptionDisplay: Comming soon to a scrapyard near you
 --- !u!1 &1935611219
 GameObject:
   m_ObjectHideFlags: 0
@@ -30097,7 +29632,6 @@ GameObject:
   - component: {fileID: 1986968379}
   - component: {fileID: 1986968378}
   - component: {fileID: 1986968377}
-  - component: {fileID: 1986968381}
   - component: {fileID: 1986968380}
   m_Layer: 5
   m_Name: RustyArmButton
@@ -30256,12 +29790,13 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1986968381}
+        - m_Target: {fileID: 1358149172}
           m_MethodName: SpawnMouseOver
-          m_Mode: 1
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 5230460517503411828, guid: b21670f44ce8c9f45a1a108e97a53db0,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -30273,7 +29808,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1986968381}
+        - m_Target: {fileID: 1358149172}
           m_MethodName: DeleteMouseOver
           m_Mode: 1
           m_Arguments:
@@ -30286,23 +29821,6 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
---- !u!114 &1986968381
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1986968375}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61ee34868943606459fa5b02aac129de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverPanel: {fileID: 359085899}
-  mouseOverPanelText: {fileID: 1792760372}
-  mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'Cost: 200 ziG'
-  descriptionDisplay: Cheap, but offers no benefits.
 --- !u!1 &1991922175
 GameObject:
   m_ObjectHideFlags: 0
@@ -30860,7 +30378,6 @@ GameObject:
   - component: {fileID: 2044926281}
   - component: {fileID: 2044926280}
   - component: {fileID: 2044926279}
-  - component: {fileID: 2044926283}
   - component: {fileID: 2044926282}
   m_Layer: 5
   m_Name: Button (1)
@@ -31007,12 +30524,13 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 2044926283}
+        - m_Target: {fileID: 1358149172}
           m_MethodName: SpawnMouseOver
-          m_Mode: 1
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 2861229189670009369, guid: 4495ce457adb1e14d800e83c359da0db,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -31024,7 +30542,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 2044926283}
+        - m_Target: {fileID: 1358149172}
           m_MethodName: DeleteMouseOver
           m_Mode: 1
           m_Arguments:
@@ -31037,23 +30555,6 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
---- !u!114 &2044926283
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2044926277}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61ee34868943606459fa5b02aac129de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverPanel: {fileID: 359085899}
-  mouseOverPanelText: {fileID: 1792760372}
-  mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'Cost: 400 ziG'
-  descriptionDisplay: Lift what you need quick and easy, even if it's heavy.
 --- !u!1 &2056666772
 GameObject:
   m_ObjectHideFlags: 0
@@ -31268,7 +30769,6 @@ GameObject:
   - component: {fileID: 2063746693}
   - component: {fileID: 2063746692}
   - component: {fileID: 2063746691}
-  - component: {fileID: 2063746694}
   - component: {fileID: 2063746695}
   m_Layer: 5
   m_Name: Button (2)
@@ -31381,23 +30881,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2063746689}
   m_CullTransparentMesh: 0
---- !u!114 &2063746694
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2063746689}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61ee34868943606459fa5b02aac129de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverPanel: {fileID: 359085899}
-  mouseOverPanelText: {fileID: 1792760372}
-  mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'ziG Capacity: 1500 ziG'
-  descriptionDisplay: Comming soon to a scrapyard near you
 --- !u!114 &2063746695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31415,7 +30898,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 2063746694}
+        - m_Target: {fileID: 0}
           m_MethodName: SpawnMouseOver
           m_Mode: 1
           m_Arguments:
@@ -31432,7 +30915,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 2063746694}
+        - m_Target: {fileID: 0}
           m_MethodName: DeleteMouseOver
           m_Mode: 1
           m_Arguments:
@@ -31536,7 +31019,6 @@ GameObject:
   - component: {fileID: 2100250069}
   - component: {fileID: 2100250068}
   - component: {fileID: 2100250067}
-  - component: {fileID: 2100250071}
   - component: {fileID: 2100250070}
   m_Layer: 5
   m_Name: TallLegButton
@@ -31683,12 +31165,13 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 2100250071}
+        - m_Target: {fileID: 1358149172}
           m_MethodName: SpawnMouseOver
-          m_Mode: 1
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 2051512789375568916, guid: 1af24708ddfeed34f8491ce587f6447e,
+              type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -31700,7 +31183,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 2100250071}
+        - m_Target: {fileID: 1358149172}
           m_MethodName: DeleteMouseOver
           m_Mode: 1
           m_Arguments:
@@ -31713,23 +31196,6 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
---- !u!114 &2100250071
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2100250065}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61ee34868943606459fa5b02aac129de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseOverPanel: {fileID: 359085899}
-  mouseOverPanelText: {fileID: 1792760372}
-  mouseOverDescription: {fileID: 1161298964}
-  powerDisplay: 'Cost: 200 ziG'
-  descriptionDisplay: Allows you to reach new heights
 --- !u!1 &2103197283
 GameObject:
   m_ObjectHideFlags: 0
@@ -31845,6 +31311,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2109293137}
   m_CullTransparentMesh: 0
+--- !u!114 &2114139322 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2114139322, guid: added44e963041847925376c669f8682,
+    type: 3}
+  m_PrefabInstance: {fileID: 1161298963}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2115691388
 GameObject:
   m_ObjectHideFlags: 0

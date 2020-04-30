@@ -109,6 +109,11 @@ PrefabInstance:
       propertyPath: range
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 5829484453487005830, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: integrity
+      value: -3
+      objectReference: {fileID: 0}
     - target: {fileID: 139429505973195338, guid: b21670f44ce8c9f45a1a108e97a53db0,
         type: 3}
       propertyPath: m_LocalPosition.y

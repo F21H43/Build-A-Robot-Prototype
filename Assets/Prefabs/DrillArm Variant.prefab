@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 5230460517503411828, guid: b21670f44ce8c9f45a1a108e97a53db0,
         type: 3}
       propertyPath: m_Name
-      value: DrillArm
+      value: DrillArm Variant
       objectReference: {fileID: 0}
     - target: {fileID: 5230460517503411830, guid: b21670f44ce8c9f45a1a108e97a53db0,
         type: 3}
@@ -93,6 +93,26 @@ PrefabInstance:
         type: 3}
       propertyPath: powerUsage
       value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 5829484453487005830, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: weight
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5829484453487005830, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: strength
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5829484453487005830, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: mobility
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5829484453487005830, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: range
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 139429505973195338, guid: b21670f44ce8c9f45a1a108e97a53db0,
         type: 3}

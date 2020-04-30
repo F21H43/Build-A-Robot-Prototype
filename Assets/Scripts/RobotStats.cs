@@ -23,7 +23,7 @@ public class RobotStats : MonoBehaviour
 
     void Update()
     {
-        powerText.text = "Power: " + powerUsed + " / " + powerProduced + " ziG";
+        powerText.text = "Power: " + powerUsed + " / " + powerProduced;
     }
     
     
