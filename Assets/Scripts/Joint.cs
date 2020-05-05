@@ -28,6 +28,9 @@ public class Joint : MonoBehaviour
             {
                 sprite.color = Color.red;
             }
+        } else if(!connected)
+        {
+            sprite.color = Color.magenta;
         }
     }
 

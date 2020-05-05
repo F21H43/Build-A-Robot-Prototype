@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1330819313}
   - component: {fileID: 1066468754121449584}
   - component: {fileID: 2348364731378308645}
+  - component: {fileID: 2370979900393891882}
   m_Layer: 8
   m_Name: RustedBody
   m_TagString: BodySegment
@@ -118,7 +119,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.37}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -129,7 +130,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.29, y: 3.23}
+  m_Size: {x: 2.02, y: 1.79}
   m_EdgeRadius: 0
 --- !u!114 &1066468754121449584
 MonoBehaviour:
@@ -166,3 +167,30 @@ MonoBehaviour:
   mobility: 0
   vision: 0
   range: 0
+  description: Click and Drag to preview window to apply
+--- !u!61 &2370979900393891882
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 277960545515118238}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.1, y: -0.86}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.29, y: 3.23}
+    newSize: {x: 0.16, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.19, y: 1.14}
+  m_EdgeRadius: 0

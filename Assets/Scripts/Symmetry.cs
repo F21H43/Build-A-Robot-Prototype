@@ -28,9 +28,16 @@ public class Symmetry : MonoBehaviour
     public void ToggleSymmetry(bool setSym)
     {
         symEnabled = setSym;
-        rightLeg.transform.localPosition = new Vector3(-leftLeg.transform.localPosition.x, leftLeg.transform.localPosition.y, leftLeg.transform.localPosition.z);
-        rightLeg.SetActive(symEnabled);
+        if(Drag.selectedObj == rightLeg)
+        {
+            leftLeg.transform.localPosition = new Vector3(-rightLeg.transform.localPosition.x, rightLeg.transform.localPosition.y, rightLeg.transform.localPosition.z);
+            leftLeg.SetActive(symEnabled);
+        } else if (Drag.selectedObj == leftLeg){
+            rightLeg.transform.localPosition = new Vector3(-leftLeg.transform.localPosition.x, leftLeg.transform.localPosition.y, leftLeg.transform.localPosition.z);
+            rightLeg.SetActive(symEnabled);
+        }
     }
+        
 
     // Update is called once per frame
     void Update()
@@ -43,7 +50,7 @@ public class Symmetry : MonoBehaviour
         } else
         {
             //symmetry hot key
-            if (leftLeg.GetComponent<Drag>().isHeld || Drag.selectedObj == leftLeg)
+            if (Drag.selectedObj == rightLeg || Drag.selectedObj == leftLeg)
             {
                 if (Input.GetKeyDown(KeyCode.S))
                 {
