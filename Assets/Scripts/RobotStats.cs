@@ -16,6 +16,13 @@ public class RobotStats : MonoBehaviour
 
     private Text powerText;
 
+    public Text weightText;
+    public Text strengthText;
+    public Text integrityText;
+    public Text mobilityText;
+    public Text visionText;
+    public Text rangeText;
+
     void Start()
     {
         powerText = GetComponent<Text>();
@@ -24,6 +31,12 @@ public class RobotStats : MonoBehaviour
     void Update()
     {
         powerText.text = "Power: " + powerUsed + " / " + powerProduced;
+        weightText.text = "WGT: " + weight;
+        strengthText.text = "STR: " + strength;
+        integrityText.text = "INTGR: " + integrity;
+        mobilityText.text = "MOB: " + mobility;
+        visionText.text = "VIS: " + vision;
+        rangeText.text = "RNG: " + range;
     }
     
     
