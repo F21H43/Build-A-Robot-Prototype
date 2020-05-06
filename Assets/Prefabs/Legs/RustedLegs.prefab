@@ -70,6 +70,8 @@ MonoBehaviour:
   mobility: 0
   vision: 0
   range: 0
+  arm: 0
+  leg: 0
   description: 
 --- !u!1 &1630600935649676633
 GameObject:
@@ -332,6 +334,8 @@ MonoBehaviour:
   mobility: 0
   vision: 0
   range: 0
+  arm: 0
+  leg: 1
   description: 
 --- !u!1 &5752775767726996715
 GameObject:
@@ -594,4 +598,6 @@ MonoBehaviour:
   mobility: 0
   vision: 0
   range: 0
+  arm: 0
+  leg: 1
   description: 

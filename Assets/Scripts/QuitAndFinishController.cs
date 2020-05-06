@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class QuitAndFinishController : MonoBehaviour
 {
+    //UI that needs to shown on the finish screen
+    public List<GameObject> finishUI;
+
+    //UI that needs to be disabled for the finish screen
+    public List<GameObject> disableUI;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +33,34 @@ public class QuitAndFinishController : MonoBehaviour
 
     public void FinishBuildingRobot()
     {
+        ChangeUI();
+        EvaluateRobot();
+    }
 
+    void ChangeUI()
+    {
+        foreach(GameObject ui in finishUI)
+        {
+            ui.SetActive(true);
+        }
+
+        foreach(GameObject ui in disableUI)
+        {
+            ui.SetActive(false);
+        }
+
+        Drag[] parts = FindObjectsOfType<Drag>();
+
+        foreach(Drag part in parts)
+        {
+            part.enabled = false;
+        }
+
+        Camera.main.transform.position += (Vector3.right * 5);
+    }
+
+    void EvaluateRobot()
+    {
+        Debug.Log("Evaluation here");
     }
 }

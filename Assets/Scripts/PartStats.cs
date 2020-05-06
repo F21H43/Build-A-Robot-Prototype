@@ -13,6 +13,8 @@ public class PartStats : MonoBehaviour
     public int mobility;
     public int vision;
     public int range;
+    public bool arm;
+    public bool leg;
 
     public string description;
 
@@ -41,6 +43,14 @@ public class PartStats : MonoBehaviour
         RobotStats.mobility += mobility;
         RobotStats.vision += vision;
         RobotStats.range += range;
+        if (arm)
+        {
+            RobotStats.arms++;
+        }
+        if (leg)
+        {
+            RobotStats.legs++;
+        }
     }
 
     private void OnDestroy()
@@ -66,5 +76,13 @@ public class PartStats : MonoBehaviour
         RobotStats.mobility -= mobility;
         RobotStats.vision -= vision;
         RobotStats.range -= range;
+        if (arm)
+        {
+            RobotStats.arms--;
+        }
+        if (leg)
+        {
+            RobotStats.legs--;
+        }
     }
 }

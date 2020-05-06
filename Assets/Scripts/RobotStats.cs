@@ -13,6 +13,8 @@ public class RobotStats : MonoBehaviour
     public static int mobility;
     public static int vision;
     public static int range;
+    public static int arms;
+    public static int legs;
 
     private Text powerText;
 
