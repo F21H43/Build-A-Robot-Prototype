@@ -71,7 +71,7 @@ MonoBehaviour:
   vision: 0
   range: 0
   arm: 0
-  leg: 0
+  leg: 1
   description: 
 --- !u!1 &1630600935649676633
 GameObject:

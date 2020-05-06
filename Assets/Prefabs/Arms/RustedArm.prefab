@@ -166,7 +166,7 @@ MonoBehaviour:
   integrity: 0
   mobility: 0
   vision: 0
-  range: 0
+  range: 1
   arm: 1
   leg: 0
   description: 
@@ -403,8 +403,8 @@ MonoBehaviour:
   integrity: 0
   mobility: 0
   vision: 0
-  range: 0
-  arm: 0
+  range: 1
+  arm: 1
   leg: 0
   description: 
 --- !u!1 &7260995515836469161
@@ -573,7 +573,7 @@ MonoBehaviour:
   integrity: 0
   mobility: 0
   vision: 0
-  range: 0
+  range: 1
   arm: 1
   leg: 0
   description: 

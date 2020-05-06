@@ -101,7 +101,7 @@ PrefabInstance:
     - target: {fileID: 2348364731378308645, guid: bd145fef025898443aa42f7ecea3fe94,
         type: 3}
       propertyPath: weight
-      value: -3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2348364731378308645, guid: bd145fef025898443aa42f7ecea3fe94,
         type: 3}

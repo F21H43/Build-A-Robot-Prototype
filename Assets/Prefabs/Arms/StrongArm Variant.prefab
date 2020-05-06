@@ -137,17 +137,17 @@ PrefabInstance:
     - target: {fileID: 8264897656554714040, guid: b21670f44ce8c9f45a1a108e97a53db0,
         type: 3}
       propertyPath: integrity
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8264897656554714040, guid: b21670f44ce8c9f45a1a108e97a53db0,
         type: 3}
       propertyPath: mobility
-      value: -2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8264897656554714040, guid: b21670f44ce8c9f45a1a108e97a53db0,
         type: 3}
       propertyPath: range
-      value: -2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8264897656554714040, guid: b21670f44ce8c9f45a1a108e97a53db0,
         type: 3}
@@ -345,22 +345,27 @@ PrefabInstance:
     - target: {fileID: 3296156385285541938, guid: b21670f44ce8c9f45a1a108e97a53db0,
         type: 3}
       propertyPath: integrity
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3296156385285541938, guid: b21670f44ce8c9f45a1a108e97a53db0,
         type: 3}
       propertyPath: mobility
-      value: -2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3296156385285541938, guid: b21670f44ce8c9f45a1a108e97a53db0,
         type: 3}
       propertyPath: range
-      value: -2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3296156385285541938, guid: b21670f44ce8c9f45a1a108e97a53db0,
         type: 3}
       propertyPath: description
       value: 'Lifter: Can lift heavy objects in your path'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3296156385285541938, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2658758267779570590, guid: b21670f44ce8c9f45a1a108e97a53db0,
         type: 3}
@@ -380,22 +385,27 @@ PrefabInstance:
     - target: {fileID: 2658758267779570590, guid: b21670f44ce8c9f45a1a108e97a53db0,
         type: 3}
       propertyPath: integrity
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2658758267779570590, guid: b21670f44ce8c9f45a1a108e97a53db0,
         type: 3}
       propertyPath: mobility
-      value: -2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2658758267779570590, guid: b21670f44ce8c9f45a1a108e97a53db0,
         type: 3}
       propertyPath: range
-      value: -2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2658758267779570590, guid: b21670f44ce8c9f45a1a108e97a53db0,
         type: 3}
       propertyPath: description
       value: 'Lifter: Can lift heavy objects in your path'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2658758267779570590, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b21670f44ce8c9f45a1a108e97a53db0, type: 3}

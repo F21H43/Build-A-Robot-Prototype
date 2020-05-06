@@ -85,12 +85,12 @@ PrefabInstance:
     - target: {fileID: 8585327527446474107, guid: 0ddfac8948c53d743b655b60ef8996ff,
         type: 3}
       propertyPath: strength
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8585327527446474107, guid: 0ddfac8948c53d743b655b60ef8996ff,
         type: 3}
       propertyPath: mobility
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 743813904342504945, guid: 0ddfac8948c53d743b655b60ef8996ff,
         type: 3}
@@ -217,17 +217,27 @@ PrefabInstance:
     - target: {fileID: 616805177747113836, guid: 0ddfac8948c53d743b655b60ef8996ff,
         type: 3}
       propertyPath: strength
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 616805177747113836, guid: 0ddfac8948c53d743b655b60ef8996ff,
         type: 3}
       propertyPath: mobility
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 616805177747113836, guid: 0ddfac8948c53d743b655b60ef8996ff,
         type: 3}
       propertyPath: description
       value: 'Propulsion: Push yourself across surfaces that are otherwise impassable'
+      objectReference: {fileID: 0}
+    - target: {fileID: 616805177747113836, guid: 0ddfac8948c53d743b655b60ef8996ff,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 616805177747113836, guid: 0ddfac8948c53d743b655b60ef8996ff,
+        type: 3}
+      propertyPath: leg
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8755338953106917420, guid: 0ddfac8948c53d743b655b60ef8996ff,
         type: 3}
@@ -242,17 +252,27 @@ PrefabInstance:
     - target: {fileID: 8755338953106917420, guid: 0ddfac8948c53d743b655b60ef8996ff,
         type: 3}
       propertyPath: strength
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8755338953106917420, guid: 0ddfac8948c53d743b655b60ef8996ff,
         type: 3}
       propertyPath: mobility
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8755338953106917420, guid: 0ddfac8948c53d743b655b60ef8996ff,
         type: 3}
       propertyPath: description
       value: 'Propulsion: Push yourself across surfaces that are otherwise impassable'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755338953106917420, guid: 0ddfac8948c53d743b655b60ef8996ff,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755338953106917420, guid: 0ddfac8948c53d743b655b60ef8996ff,
+        type: 3}
+      propertyPath: leg
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 552628773113359478, guid: 0ddfac8948c53d743b655b60ef8996ff, type: 3}

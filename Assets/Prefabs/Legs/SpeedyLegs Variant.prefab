@@ -127,17 +127,17 @@ PrefabInstance:
     - target: {fileID: 8585327527446474107, guid: 0ddfac8948c53d743b655b60ef8996ff,
         type: 3}
       propertyPath: weight
-      value: -2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8585327527446474107, guid: 0ddfac8948c53d743b655b60ef8996ff,
         type: 3}
       propertyPath: integrity
-      value: 2
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 8585327527446474107, guid: 0ddfac8948c53d743b655b60ef8996ff,
         type: 3}
       propertyPath: mobility
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8585327527446474107, guid: 0ddfac8948c53d743b655b60ef8996ff,
         type: 3}
@@ -284,22 +284,32 @@ PrefabInstance:
     - target: {fileID: 616805177747113836, guid: 0ddfac8948c53d743b655b60ef8996ff,
         type: 3}
       propertyPath: weight
-      value: -2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 616805177747113836, guid: 0ddfac8948c53d743b655b60ef8996ff,
         type: 3}
       propertyPath: integrity
-      value: 2
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 616805177747113836, guid: 0ddfac8948c53d743b655b60ef8996ff,
         type: 3}
       propertyPath: mobility
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 616805177747113836, guid: 0ddfac8948c53d743b655b60ef8996ff,
         type: 3}
       propertyPath: description
       value: 'Speed: Can run real fast'
+      objectReference: {fileID: 0}
+    - target: {fileID: 616805177747113836, guid: 0ddfac8948c53d743b655b60ef8996ff,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 616805177747113836, guid: 0ddfac8948c53d743b655b60ef8996ff,
+        type: 3}
+      propertyPath: leg
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8755338953106917420, guid: 0ddfac8948c53d743b655b60ef8996ff,
         type: 3}
@@ -309,22 +319,32 @@ PrefabInstance:
     - target: {fileID: 8755338953106917420, guid: 0ddfac8948c53d743b655b60ef8996ff,
         type: 3}
       propertyPath: weight
-      value: -2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8755338953106917420, guid: 0ddfac8948c53d743b655b60ef8996ff,
         type: 3}
       propertyPath: integrity
-      value: 2
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 8755338953106917420, guid: 0ddfac8948c53d743b655b60ef8996ff,
         type: 3}
       propertyPath: mobility
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8755338953106917420, guid: 0ddfac8948c53d743b655b60ef8996ff,
         type: 3}
       propertyPath: description
       value: 'Speed: Can run real fast'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755338953106917420, guid: 0ddfac8948c53d743b655b60ef8996ff,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755338953106917420, guid: 0ddfac8948c53d743b655b60ef8996ff,
+        type: 3}
+      propertyPath: leg
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 552628773113359478, guid: 0ddfac8948c53d743b655b60ef8996ff, type: 3}
