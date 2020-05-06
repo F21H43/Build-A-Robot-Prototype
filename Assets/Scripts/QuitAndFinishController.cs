@@ -90,6 +90,7 @@ public class QuitAndFinishController : MonoBehaviour
 
     public void RestartGame()
     {
+        PartSpawning.torsoSpawned = false;
         SceneManager.LoadScene(0);
     }
 
