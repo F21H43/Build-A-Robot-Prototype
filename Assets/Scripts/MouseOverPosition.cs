@@ -13,6 +13,14 @@ public class MouseOverPosition : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = Input.mousePosition;
+        
+        if(Input.mousePosition.y < 205)
+        {
+            transform.position = Input.mousePosition + (Vector3.up * 205);
+        }
+        else
+        {
+            transform.position = Input.mousePosition;
+        }
     }
 }
