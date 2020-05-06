@@ -13,7 +13,6 @@ public class PartStats : MonoBehaviour
     public int mobility;
     public int vision;
     public int range;
-    RobotStats rs;
 
     public string description;
 
@@ -35,15 +34,14 @@ public class PartStats : MonoBehaviour
     private void OnEnable()
     {
         rs = FindObjectOfType<RobotStats>();
-        rs.powerProduced += powerProduction;
-        rs.powerUsed += powerUsage;
-        rs.weight += weight;
-        rs.strength += strength;
-        rs.integrity += integrity;
-        rs.mobility += mobility;
-        rs.mobility += mobility;
-        rs.vision += vision;
-        rs.range += range;
+        RobotStats.powerProduced += powerProduction;
+        RobotStats.powerUsed += powerUsage;
+        RobotStats.weight += weight;
+        RobotStats.strength += strength;
+        RobotStats.integrity += integrity;
+        RobotStats.mobility += mobility;
+        RobotStats.vision += vision;
+        RobotStats.range += range;
     }
 
     private void OnDestroy()
@@ -61,14 +59,13 @@ public class PartStats : MonoBehaviour
 
     private void OnDisable()
     {
-        rs.powerProduced -= powerProduction;
-        rs.powerUsed -= powerUsage;
-        rs.weight -= weight;
-        rs.strength -= strength;
-        rs.integrity -= integrity;
-        rs.mobility -= mobility;
-        rs.mobility -= mobility;
-        rs.vision -= vision;
-        rs.range -= range;
+        RobotStats.powerProduced -= powerProduction;
+        RobotStats.powerUsed -= powerUsage;
+        RobotStats.weight -= weight;
+        RobotStats.strength -= strength;
+        RobotStats.integrity -= integrity;
+        RobotStats.mobility -= mobility;
+        RobotStats.vision -= vision;
+        RobotStats.range -= range;
     }
 }

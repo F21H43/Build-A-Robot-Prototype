@@ -24,4 +24,9 @@ public class QuitAndFinishController : MonoBehaviour
       Application.Quit();
 #endif
     }
+
+    public void FinishBuildingRobot()
+    {
+
+    }
 }

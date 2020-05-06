@@ -5,14 +5,14 @@ using UnityEngine.UI;
 
 public class RobotStats : MonoBehaviour
 {
-    public int powerProduced;
-    public int powerUsed;
-    public int weight;
-    public int strength;
-    public int integrity;
-    public int mobility;
-    public int vision;
-    public int range;
+    public static int powerProduced;
+    public static int powerUsed;
+    public static int weight;
+    public static int strength;
+    public static int integrity;
+    public static int mobility;
+    public static int vision;
+    public static int range;
 
     private Text powerText;
 
