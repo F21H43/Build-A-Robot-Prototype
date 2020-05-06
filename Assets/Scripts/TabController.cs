@@ -6,6 +6,13 @@ public class TabController : MonoBehaviour
 {
     public List<GameObject> tabWindows;
 
+    public GameObject objectiveTab;
+
+    private void Update()
+    {
+        ToggleObjectivesTab();
+    }
+
     public void OpenTabWindow(int tab)
     {
         for(int i = 0; i < tabWindows.Capacity; i++)
@@ -37,6 +44,14 @@ public class TabController : MonoBehaviour
             {
                 tabWindows[i].SetActive(true);
             }
+        }
+    }
+
+    public void ToggleObjectivesTab()
+    {
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            objectiveTab.SetActive(!objectiveTab.activeInHierarchy);
         }
     }
 }

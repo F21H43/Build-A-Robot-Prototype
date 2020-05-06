@@ -33,7 +33,6 @@ public class PartStats : MonoBehaviour
 
     private void OnEnable()
     {
-        rs = FindObjectOfType<RobotStats>();
         RobotStats.powerProduced += powerProduction;
         RobotStats.powerUsed += powerUsage;
         RobotStats.weight += weight;
