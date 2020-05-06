@@ -14,7 +14,7 @@ public class Joint : MonoBehaviour
 
 
     /// <summary>
-    /// if we are connected make the 
+    /// if we are connected make the torso change it's color.
     /// </summary>
     private void Update()
     {
