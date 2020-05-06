@@ -57,7 +57,7 @@ public class QuitAndFinishController : MonoBehaviour
             part.enabled = false;
         }
 
-        Camera.main.transform.position += (Vector3.right * 5);
+        Camera.main.transform.position = Vector3.zero + (Vector3.right * 5) + (Vector3.back * 10);
     }
 
     void EvaluateRobot()
