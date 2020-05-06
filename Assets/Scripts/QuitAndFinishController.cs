@@ -11,6 +11,8 @@ public class QuitAndFinishController : MonoBehaviour
     //UI that needs to be disabled for the finish screen
     public List<GameObject> disableUI;
 
+    public GameObject powerPopup;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -34,8 +36,15 @@ public class QuitAndFinishController : MonoBehaviour
 
     public void FinishBuildingRobot()
     {
-        ChangeUI();
-        EvaluateRobot();
+        if (CheckRobotPower())
+        {
+            ChangeUI();
+            EvaluateRobot();
+        }
+        else
+        {
+            NotEnoughPowerPopup();
+        }
     }
 
     void ChangeUI()
@@ -68,5 +77,20 @@ public class QuitAndFinishController : MonoBehaviour
     public void RestartGame()
     {
         SceneManager.LoadScene(0);
+    }
+
+    bool CheckRobotPower()
+    {
+        return RobotStats.powerProduced >= RobotStats.powerUsed;
+    }
+
+    void NotEnoughPowerPopup()
+    {
+        powerPopup.SetActive(true);
+    }
+
+    public void DisablePopup()
+    {
+        powerPopup.SetActive(false);
     }
 }

@@ -39,7 +39,7 @@ public class MouseOverStuff : MonoBehaviour
         }
         
         mouseOverText2.text = "Weight: " + part.GetComponent<PartStats>().weight.ToString();
-        mouseOverText3.text = "Strenght: " + part.GetComponent<PartStats>().strength.ToString();
+        mouseOverText3.text = "Strength: " + part.GetComponent<PartStats>().strength.ToString();
         mouseOverText4.text = "Integrity: " + part.GetComponent<PartStats>().integrity.ToString();
         mouseOverText5.text = "Mobility: " + part.GetComponent<PartStats>().mobility.ToString();
         mouseOverText6.text = "Vision: " + part.GetComponent<PartStats>().vision.ToString();
