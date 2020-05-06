@@ -77,7 +77,7 @@ public class Drag : MonoBehaviour
     void OnMouseDrag()
     {
         isHeld = true;
-        selectedObj = this.gameObject;
+        selectedObj = gameObject;
     }
 
     /// <summary>
