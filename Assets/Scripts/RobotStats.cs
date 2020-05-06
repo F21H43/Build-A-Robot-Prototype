@@ -31,12 +31,84 @@ public class RobotStats : MonoBehaviour
     void Update()
     {
         powerText.text = "Power: " + powerUsed + " / " + powerProduced;
-        weightText.text = "WGT: " + weight;
-        strengthText.text = "STR: " + strength;
-        integrityText.text = "INTGR: " + integrity;
-        mobilityText.text = "MOB: " + mobility;
-        visionText.text = "VIS: " + vision;
-        rangeText.text = "RNG: " + range;
+
+        if(weight >= 5)
+        {
+            weightText.text = "WGT: 5";
+        }
+        else if(weight <= -5)
+        {
+            weightText.text = "WGT: -5";
+        }
+        else
+        {
+            weightText.text = "WGT: " + weight;
+        }
+        
+        if (strength >= 5)
+        {
+            strengthText.text = "STR: 5";
+        }
+        else if (strength <= -5)
+        {
+            strengthText.text = "STR: -5";
+        }
+        else
+        {
+            strengthText.text = "STR: " + strength;
+        }
+        
+        if (integrity >= 5)
+        {
+            integrityText.text = "INTGR: 5";
+        }
+        else if (integrity <= -5)
+        {
+            integrityText.text = "INTGR: -5";
+        }
+        else
+        {
+            integrityText.text = "INTGR: " + integrity;
+        }  
+        
+        if (mobility >= 5)
+        {
+            mobilityText.text = "MOB: 5";
+        }
+        else if (mobility <= -5)
+        {
+            mobilityText.text = "MOB: -5";
+        }
+        else
+        {
+            mobilityText.text = "MOB: " + mobility;
+        }
+        
+        if (vision >= 5)
+        {
+            visionText.text = "VIS: 5";
+        }
+        else if (vision <= -5)
+        {
+            visionText.text = "VIS: -5";
+        }
+        else
+        {
+            visionText.text = "VIS: " + vision;
+        }
+        
+        if (range >= 5)
+        {
+            rangeText.text = "RNG: 5";
+        }
+        else if (range <= -5)
+        {
+            rangeText.text = "RNG: -5";
+        }
+        else
+        {
+            rangeText.text = "RNG: " + range;
+        }
     }
     
     
