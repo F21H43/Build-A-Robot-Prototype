@@ -74,7 +74,7 @@ public class QuitAndFinishController : MonoBehaviour
 
     void EvaluateRobot()
     {
-        if(RobotStats.arms >= 2  && RobotStats.range >= 3 && RobotStats.mobility >= 1 && RobotStats.strength >= 2  && RobotStats.vision >= 1)
+        if(RobotStats.range >= 3 && RobotStats.mobility >= 1 && RobotStats.strength >= 2  && RobotStats.vision >= 1)
         {
             finishText.text = "Looks like this will work, Good Job!";
         }
