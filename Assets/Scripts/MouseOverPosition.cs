@@ -14,9 +14,9 @@ public class MouseOverPosition : MonoBehaviour
     void Update()
     {
         
-        if(Input.mousePosition.y < 205)
+        if(Input.mousePosition.y < 375)
         {
-            transform.position = Input.mousePosition + (Vector3.up * 205);
+            transform.position = Input.mousePosition + (Vector3.up * 375);
         }
         else
         {
