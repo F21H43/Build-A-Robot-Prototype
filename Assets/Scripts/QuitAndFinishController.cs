@@ -76,15 +76,15 @@ public class QuitAndFinishController : MonoBehaviour
     {
         if(RobotStats.arms >= 2  && RobotStats.range >= 3 && RobotStats.mobility >= 1 && RobotStats.strength >= 2  && RobotStats.vision >= 1)
         {
-            finishText.text = "You did it!";
+            finishText.text = "Looks like this will work, Good Job!";
         }
         else if (!PartSpawning.torsoSpawned)
         {
-            finishText.text = "no robo";
+            finishText.text = "...really?";
         }
         else
         {
-            finishText.text = "You failed!";
+            finishText.text = "Looks like you're missing a few things...";
         }
     }
 

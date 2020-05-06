@@ -9729,7 +9729,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 160.45}
-  m_SizeDelta: {x: 468.1, y: 85.2}
+  m_SizeDelta: {x: 475.5, y: 85.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &663604522
 MonoBehaviour:
@@ -9764,7 +9764,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Congrats!
+  m_Text: Looks like this will work, Good Job!
 --- !u!222 &663604523
 CanvasRenderer:
   m_ObjectHideFlags: 0
