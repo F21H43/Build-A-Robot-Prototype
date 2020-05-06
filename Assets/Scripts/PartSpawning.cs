@@ -23,7 +23,9 @@ public class PartSpawning : MonoBehaviour
     {
         if (!torsoSpawned)
         {
-            GameObject newTorso = Instantiate(torso, Vector3.right * 5, Quaternion.identity);
+            Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            mousePos.z = 0;
+            GameObject newTorso = Instantiate(torso, mousePos, Quaternion.identity);
             torsoSpawned = true;
             Symmetry.torso = newTorso.transform;
             Drag.selectedObj = newTorso;
