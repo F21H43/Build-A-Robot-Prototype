@@ -154,6 +154,46 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 3.96
       objectReference: {fileID: 0}
+    - target: {fileID: 616805177747113836, guid: 0ddfac8948c53d743b655b60ef8996ff,
+        type: 3}
+      propertyPath: powerUsage
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 616805177747113836, guid: 0ddfac8948c53d743b655b60ef8996ff,
+        type: 3}
+      propertyPath: weight
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 616805177747113836, guid: 0ddfac8948c53d743b655b60ef8996ff,
+        type: 3}
+      propertyPath: integrity
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 616805177747113836, guid: 0ddfac8948c53d743b655b60ef8996ff,
+        type: 3}
+      propertyPath: description
+      value: 'Thin: A cheap way to get around'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755338953106917420, guid: 0ddfac8948c53d743b655b60ef8996ff,
+        type: 3}
+      propertyPath: powerUsage
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755338953106917420, guid: 0ddfac8948c53d743b655b60ef8996ff,
+        type: 3}
+      propertyPath: weight
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755338953106917420, guid: 0ddfac8948c53d743b655b60ef8996ff,
+        type: 3}
+      propertyPath: integrity
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755338953106917420, guid: 0ddfac8948c53d743b655b60ef8996ff,
+        type: 3}
+      propertyPath: description
+      value: 'Thin: A cheap way to get around'
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 552628773113359478, guid: 0ddfac8948c53d743b655b60ef8996ff, type: 3}
     - {fileID: 2289571716623213801, guid: 0ddfac8948c53d743b655b60ef8996ff, type: 3}

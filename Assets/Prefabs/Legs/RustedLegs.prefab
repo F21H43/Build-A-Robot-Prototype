@@ -57,7 +57,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 277960545515118238}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5db627a0ee2ff5349a17236008988f17, type: 3}
   m_Name: 
@@ -146,6 +146,7 @@ GameObject:
   - component: {fileID: 3856778249016787345}
   - component: {fileID: 489797292845079456}
   - component: {fileID: 7530651234557478287}
+  - component: {fileID: 616805177747113836}
   m_Layer: 0
   m_Name: RightLeg 1
   m_TagString: Untagged
@@ -311,6 +312,27 @@ CircleCollider2D:
   m_Offset: {x: 0.14, y: 1.19}
   serializedVersion: 2
   m_Radius: 0.27
+--- !u!114 &616805177747113836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4430650347479719938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5db627a0ee2ff5349a17236008988f17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUsage: 125
+  powerProduction: 0
+  weight: 0
+  strength: 0
+  integrity: 0
+  mobility: 0
+  vision: 0
+  range: 0
+  description: 
 --- !u!1 &5752775767726996715
 GameObject:
   m_ObjectHideFlags: 0
@@ -386,6 +408,7 @@ GameObject:
   - component: {fileID: 1373911486547932716}
   - component: {fileID: 552628773113359478}
   - component: {fileID: 2289571716623213801}
+  - component: {fileID: 8755338953106917420}
   m_Layer: 0
   m_Name: LeftLeg 1
   m_TagString: Untagged
@@ -551,3 +574,24 @@ CircleCollider2D:
   m_Offset: {x: -0.14, y: 1.19}
   serializedVersion: 2
   m_Radius: 0.27
+--- !u!114 &8755338953106917420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8481211155145875305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5db627a0ee2ff5349a17236008988f17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUsage: 125
+  powerProduction: 0
+  weight: 0
+  strength: 0
+  integrity: 0
+  mobility: 0
+  vision: 0
+  range: 0
+  description: 

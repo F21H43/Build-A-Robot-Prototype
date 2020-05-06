@@ -245,6 +245,66 @@ PrefabInstance:
       propertyPath: m_Offset.x
       value: 0.15
       objectReference: {fileID: 0}
+    - target: {fileID: 3296156385285541938, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: powerUsage
+      value: 350
+      objectReference: {fileID: 0}
+    - target: {fileID: 3296156385285541938, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3296156385285541938, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: strength
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3296156385285541938, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: mobility
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3296156385285541938, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: range
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3296156385285541938, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: description
+      value: 'Shovel: Can dig up dirt & other related resources'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2658758267779570590, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: powerUsage
+      value: 350
+      objectReference: {fileID: 0}
+    - target: {fileID: 2658758267779570590, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2658758267779570590, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: strength
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2658758267779570590, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: mobility
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2658758267779570590, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: range
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2658758267779570590, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: description
+      value: 'Shovel: Can dig up dirt & other related resources'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b21670f44ce8c9f45a1a108e97a53db0, type: 3}
 --- !u!1 &7784655120691676482 stripped

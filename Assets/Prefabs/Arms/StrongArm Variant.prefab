@@ -327,6 +327,76 @@ PrefabInstance:
       propertyPath: m_Radius
       value: 0.64
       objectReference: {fileID: 0}
+    - target: {fileID: 3296156385285541938, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: powerUsage
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 3296156385285541938, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: weight
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3296156385285541938, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: strength
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3296156385285541938, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: integrity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3296156385285541938, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: mobility
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3296156385285541938, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: range
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3296156385285541938, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: description
+      value: 'Lifter: Can lift heavy objects in your path'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2658758267779570590, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: powerUsage
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 2658758267779570590, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: weight
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2658758267779570590, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: strength
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2658758267779570590, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: integrity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2658758267779570590, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: mobility
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2658758267779570590, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: range
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2658758267779570590, guid: b21670f44ce8c9f45a1a108e97a53db0,
+        type: 3}
+      propertyPath: description
+      value: 'Lifter: Can lift heavy objects in your path'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b21670f44ce8c9f45a1a108e97a53db0, type: 3}
 --- !u!1 &9072649548997431683 stripped

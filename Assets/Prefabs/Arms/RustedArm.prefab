@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7953555682132263018}
   - component: {fileID: 5931407059399677}
   - component: {fileID: 4172105462397224790}
+  - component: {fileID: 3296156385285541938}
   m_Layer: 0
   m_Name: leftarm
   m_TagString: Untagged
@@ -146,6 +147,27 @@ MonoBehaviour:
   isHeld: 1
   canRotate: 1
   isRotating: 0
+--- !u!114 &3296156385285541938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354442586041142766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5db627a0ee2ff5349a17236008988f17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUsage: 125
+  powerProduction: 0
+  weight: 0
+  strength: 0
+  integrity: 0
+  mobility: 0
+  vision: 0
+  range: 0
+  description: 
 --- !u!1 &1973288414119132822
 GameObject:
   m_ObjectHideFlags: 0
@@ -367,7 +389,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5230460517503411828}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5db627a0ee2ff5349a17236008988f17, type: 3}
   m_Name: 
@@ -394,6 +416,7 @@ GameObject:
   - component: {fileID: 7826034427322017075}
   - component: {fileID: 2156089454594416385}
   - component: {fileID: 5511391177231952274}
+  - component: {fileID: 2658758267779570590}
   m_Layer: 0
   m_Name: rightarm
   m_TagString: Untagged
@@ -527,3 +550,24 @@ MonoBehaviour:
   isHeld: 0
   canRotate: 1
   isRotating: 0
+--- !u!114 &2658758267779570590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7260995515836469161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5db627a0ee2ff5349a17236008988f17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUsage: 125
+  powerProduction: 0
+  weight: 0
+  strength: 0
+  integrity: 0
+  mobility: 0
+  vision: 0
+  range: 0
+  description: 
