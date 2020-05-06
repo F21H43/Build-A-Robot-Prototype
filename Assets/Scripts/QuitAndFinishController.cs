@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class QuitAndFinishController : MonoBehaviour
 {
@@ -62,5 +63,10 @@ public class QuitAndFinishController : MonoBehaviour
     void EvaluateRobot()
     {
         Debug.Log("Evaluation here");
+    }
+
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(0);
     }
 }
