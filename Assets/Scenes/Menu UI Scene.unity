@@ -10190,16 +10190,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Objective: Create a resource collection Robot.
+  m_Text: 'Objective: Create a Resource Collection Robot.
 
 
     Required:
-
-    2 arms
-
-    1 torso
-
-    1 leg
 
     +3 RNG
 
