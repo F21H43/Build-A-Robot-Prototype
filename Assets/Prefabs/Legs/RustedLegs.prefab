@@ -67,7 +67,7 @@ MonoBehaviour:
   weight: 0
   strength: 0
   integrity: 0
-  mobility: 0
+  mobility: 1
   vision: 0
   range: 0
   arm: 0
@@ -331,7 +331,7 @@ MonoBehaviour:
   weight: 0
   strength: 0
   integrity: 0
-  mobility: 0
+  mobility: 1
   vision: 0
   range: 0
   arm: 0
@@ -595,7 +595,7 @@ MonoBehaviour:
   weight: 0
   strength: 0
   integrity: 0
-  mobility: 0
+  mobility: 1
   vision: 0
   range: 0
   arm: 0

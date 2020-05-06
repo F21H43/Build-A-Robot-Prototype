@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class QuitAndFinishController : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class QuitAndFinishController : MonoBehaviour
     public List<GameObject> disableUI;
 
     public GameObject powerPopup;
+
+    public Text finishText;
 
     // Start is called before the first frame update
     void Start()
@@ -71,7 +74,18 @@ public class QuitAndFinishController : MonoBehaviour
 
     void EvaluateRobot()
     {
-        Debug.Log("Evaluation here");
+        if(RobotStats.arms >= 2  && RobotStats.range >= 3 && RobotStats.mobility >= 1 && RobotStats.strength >= 2  && RobotStats.vision >= 1)
+        {
+            finishText.text = "You did it!";
+        }
+        else if (!PartSpawning.torsoSpawned)
+        {
+            finishText.text = "no robo";
+        }
+        else
+        {
+            finishText.text = "You failed!";
+        }
     }
 
     public void RestartGame()
